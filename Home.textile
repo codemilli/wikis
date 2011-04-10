@@ -1,1 +1,2 @@
+* [[List of available Guards]]
 * [[Guardfile examples]]
