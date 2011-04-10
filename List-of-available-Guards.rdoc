@@ -1,3 +1,5 @@
+You can also found these guard on rubygems by {searching for "guard-"}[https://rubygems.org/search?query=guard-]
+
 - {guard-bundler}[https://github.com/guard/guard-bundler] by {Yann Lugrin}[https://github.com/yannlugrin]
 - {guard-coffeescript}[https://github.com/guard/guard-coffeescript] by {Michael Kessler}[https://github.com/netzpirat]
 - {guard-compass}[https://github.com/guard/guard-compass] by {Olivier Amblet}[https://github.com/oliamb]
