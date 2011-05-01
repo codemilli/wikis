@@ -1,30 +1,29 @@
-
 (This feature is in the "hook" branch as of April 30, 2011.)
 
 ## Hooks
 
-Guard has a hook mechanism that allows you to insert callbacks for individual Guards. By default, each of the Guard instance methods has a "_begin" and an "_end" hook. For example, the <tt>#start</tt> method will have a :start_begin hook that is run immediately before <tt>#start</tt> and a :start_end hook that is run immediately after <tt>#start</tt>.
+Guard has a hook mechanism that allows you to insert callbacks for individual Guards. By default, each of the Guard instance methods has a **"_begin"** and an **"_end"** hook. For example, the `Guard::Guard#start` method has a _:start_begin_ hook that is run immediately before `Guard::Guard#start` and a _:start_end_ hook that is run immediately after `Guard::Guard#start`.
 
 ## Callbacks
 
-You can set your callback for a specific Guard in your Guardfile with the <tt>DSL.callback</tt> method. There are two ways to define your callbacks:
+You can set your callback for a specific Guard in your Guardfile with the `Guard::DSL.callback` method. There are two ways to define your callbacks:
 
-### With A Block
+### With a block
 
-The first argument to <tt>.callback</tt> is the hook of interest. The block contains the code to run. For example, to have Guard open TextMate when it first starts up:
+The first argument to `Guard::Dsl#callback` is the hook of interest. The block contains the code to run. For example, to have Guard open TextMate when it first starts up:
 
 ```ruby
 # Guardfile
 guard 'rspec' do
   watch(...) { ... }
 
-  callback(:start_end) { `mate .` }
+  callback(:start_begin) { `mate .` }
 end
 ```
 
-### Without A Block
+### Without a block
 
-If you have more complex code to run, you can create a separate object to contain that code. In order for the callback to run, it must have a <tt>#call</tt> method that receives the class of the Guard associated with the callback, the hook event, and a splat of other arguments. For <tt>.callback</tt>, you pass the object and the hook(s) you are interested in. Here is an example of a Timer plugin.
+If you have more complex code to run, you can create a separate object to contain that code. In order for the callback to run, it must have a `#call` (or `.call` if it's a module) method that receives the class of the Guard associated with the callback, the hook event, and a splat of other arguments. For `Guard::Dsl#callback`, you pass the object (or the module) and the hook(s) you are interested in. Here is an example of a Timer plugin.
 
 ```ruby
 # Guardfile
@@ -52,11 +51,11 @@ guard 'rspec' do
 end
 ```
 
-For the default "_begin" hooks, the <tt>*args</tt> that are passed to <tt>#call</tt> are the matched files that Guard has detected changes on. For the default "_end" hooks, <tt>*args</tt> are the results of the Guard action that was executed.
+For the default **"_begin"** hooks, the `*args` that are passed to `#call` are the matched files that Guard has detected changes on. For the default **"_end"** hooks, `*args` are the results of the Guard action that was executed.
 
 ## Developers
 
-If you are developing a Guard and want end users or other gems to be able to hook into certain parts of your code, then you can create a custom hook with the <tt>#hook</tt> method. You define the hook's name with either a symbol or string. If passed a symbol, the hook name will be the name of the calling method with the symbol appended. If passed a string, the hook name will be the string.
+If you are developing a Guard and want end users or other gems to be able to hook into certain parts of your code, then you can create a custom hook with the `#hook` method. You define the hook's name with either a symbol or string. If passed a symbol, the hook name will be the name of the calling method with the symbol appended. If passed a string, the hook name will be the string.
 
 ```ruby
 module Guard
