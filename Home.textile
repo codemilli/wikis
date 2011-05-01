@@ -1,2 +1,3 @@
 * [[List of available Guards]]
 * [[Guardfile examples]]
+* [[Hooks and callbacks]]
