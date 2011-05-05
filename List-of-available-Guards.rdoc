@@ -5,6 +5,7 @@ You can also found these guard on rubygems by {searching for "guard-"}[https://r
 - {guard-compass}[https://github.com/guard/guard-compass] by {Olivier Amblet}[https://github.com/oliamb]
 - {guard-cucumber}[https://github.com/guard/guard-cucumber] by {Michael Kessler}[https://github.com/netzpirat]
 - {guard-ego}[https://github.com/guard/guard-ego] by {Fabio Kuhn}[https://github.com/mordaroso]
+- {guard-gimli}[https://github.com/guard/guard-gimli] by {Fredrik Wallgren}[https://github.com/walle]
 - {guard-jammit}[https://github.com/guard/guard-jammit] by {Pelle Braendgaard}[https://github.com/pelle]
 - {guard-jstd}[https://github.com/guard/guard-jstd] by {arailsdemo}[https://github.com/arailsdemo]
 - {guard-krl}[https://github.com/guard/guard-krl] by {Michael Farmer}[https://github.com/mikefarmer]
