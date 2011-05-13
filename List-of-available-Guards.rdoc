@@ -28,4 +28,5 @@ You can also found these guard on rubygems by {searching for "guard-"}[https://r
 - {guard-sprockets}[https://github.com/guard/guard-sprockets] by {Aaron Cruz}[https://github.com/pferdefleisch]
 - {guard-stendhal}[https://github.com/guard/guard-stendhal] by {Josep Mª Bach}[https://github.com/txus]
 - {guard-test}[https://github.com/guard/guard-test] by {Rémy Coutable}[https://github.com/rymai]
+- {guard-uglify}[https://github.com/guard/guard-uglify] by {Aaron Cruz}[https://github.com/pferdefleisch]
 - {guard-webrick}[https://github.com/guard/guard-webrick] by {Fletcher Nichol}[https://github.com/fnichol]
