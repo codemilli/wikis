@@ -14,7 +14,7 @@ You can also find these guard on rubygems by {searching for "guard-"}[https://ru
 - {guard-jasmine-headless-webkit}[https://github.com/guard/guard-jasmine-headless-webkit/] by {John Bintz}[https://github.com/johnbintz]
 - {guard-jstd}[https://github.com/guard/guard-jstd] by {arailsdemo}[https://github.com/arailsdemo]
 - {guard-krl}[https://github.com/guard/guard-krl] by {Michael Farmer}[https://github.com/mikefarmer]
-- {guard-mozrepl}[https://github.com/branch14/guard-mozrepl] by {Phil Hofmann}[https://github.com/branch14]
+- {guard-mozrepl}[https://github.com/guard/guard-mozrepl] by {Phil Hofmann}[https://github.com/branch14]
 - {guard-less}[https://github.com/guard/guard-less] by {Brendan Erwin}[https://github.com/brendanjerwin]
 - {guard-livereload}[https://github.com/guard/guard-livereload] by {Thibaud Guillaume-Gentil}[https://github.com/thibaudgg]
 - {guard-minitest}[https://github.com/guard/guard-minitest] by {Yann Lugrin}[https://github.com/yannlugrin]
