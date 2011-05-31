@@ -14,7 +14,7 @@ You can set the options for a terminal device interface with the [stty](http://w
 	min = 1; quit = ^\; reprint = ^R; start = ^Q; status = ^T;
 	stop = ^S; susp = ^Z; time = 0; werase = ^W;
 
-Now you can change the control character for `SIGQUIT` with
+Now you can change the control character for `SIGQUIT`:
 
     $ stty quit "^R"
 
