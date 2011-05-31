@@ -19,3 +19,5 @@ Now you can change the control character for `SIGQUIT`:
     $ stty quit "^R"
 
 This maps Guards' Run all to `Ctrl-R`.
+
+If you use Guard on Windows, you should install [Cygwin](http://www.cygwin.com/) and make sure you have the [coreutils](http://cygwin.com/cgi-bin2/package-cat.cgi?file=coreutils%2Fcoreutils-8.10-1&grep=sh-utils) package installed to have the appropriate commands available in your shell.
