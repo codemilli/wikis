@@ -38,3 +38,4 @@ You can also find these guard on rubygems by {searching for "guard-"}[https://ru
 - {guard-test}[https://github.com/guard/guard-test] by {Rémy Coutable}[https://github.com/rymai]
 - {guard-uglify}[https://github.com/guard/guard-uglify] by {Aaron Cruz}[https://github.com/pferdefleisch]
 - {guard-webrick}[https://github.com/guard/guard-webrick] by {Fletcher Nichol}[https://github.com/fnichol]
+- {guard-yard}[http://github.com/panthomakos/guard-yard] by {Pan Thomakos}[https://github.com/panthomakos]
