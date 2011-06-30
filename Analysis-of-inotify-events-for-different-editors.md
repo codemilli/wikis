@@ -4,7 +4,7 @@ Steps to add an event analysis of your editor:
 
 1. Open the file
 2. Launch inotifywatch
-3. Changed the file content
+3. Change the file content
 4. Save the file
 5. Quit inotifywatch
 
