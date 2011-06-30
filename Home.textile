@@ -1,4 +1,8 @@
 * [[List of available Guards]]
 * [[Guardfile examples]]
-* [[Hooks and callbacks]]
 * [[Configure keyboard shortcuts]]
+
+**Development**
+
+* [[Hooks and callbacks]]
+* [[Analysis of INotify event for different Editors]]
