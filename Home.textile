@@ -5,4 +5,4 @@
 **Development**
 
 * [[Hooks and callbacks]]
-* [[Analysis of INotify event for different Editors]]
+* [[Analysis of INotify events for different Editors]]
