@@ -3,7 +3,7 @@ This page collects information about the fired [inotify](http://en.wikipedia.org
 Steps to add an event analysis of your editor: 
 
 1. Open the file
-2. Launched inotifywatch
+2. Launch inotifywatch
 3. Changed the file content
 4. Save the file
 5. Quit inotifywatch
