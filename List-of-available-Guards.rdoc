@@ -8,6 +8,7 @@ You can also find these guard on rubygems by {searching for "guard-"}[https://ru
 - {guard-cucumber}[https://github.com/guard/guard-cucumber] by {Michael Kessler}[https://github.com/netzpirat]
 - {guard-delayed}[https://github.com/guard/guard-delayed] by {David Parry}[https://github.com/suranyami]
 - {guard-ego}[https://github.com/guard/guard-ego] by {Fabio Kuhn}[https://github.com/mordaroso]
+- {guard-flopbox}[https://github.com/vincentchu/guard-flopbox] by {Vincent Chu}[https://github.com/vincentchu]
 - {guard-gimli}[https://github.com/guard/guard-gimli] by {Fredrik Wallgren}[https://github.com/walle]
 - {guard-jammit}[https://github.com/guard/guard-jammit] by {Pelle Braendgaard}[https://github.com/pelle]
 - {guard-haml}[https://github.com/guard/guard-haml] by {Immanuel Häussermann}[https://github.com/manufaktor]
