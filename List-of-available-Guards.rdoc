@@ -26,6 +26,7 @@ You can also find these guard on rubygems by {searching for "guard-"}[https://ru
 - {guard-pow}[https://github.com/guard/guard-pow] by {Thibaud Guillaume-Gentil}[https://github.com/thibaudgg]
 - {guard-process}[https://github.com/socialreferral/guard-process] by {Mark Kremer}[https://github.com/mkremer]
 - {guard-prove}[https://github.com/guard/guard-prove] by {Marian Schubert}[https://github.com/maio]
+- {guard-puppet}[https://github.com/johnbintz/guard-puppet] by {John Bintz}[https://github.com/johnbintz]
 - {guard-pusher}[https://github.com/guard/guard-pusher] by {Klaus Hartl}[https://github.com/carhartl]
 - {guard-rails}[https://github.com/guard/guard-rails] by {John Bintz}[https://github.com/johnbintz]
 - {guard-rails-assets}[https://github.com/guard/guard-rails-assets] by {Dmytrii Nagirniak}[https://github.com/dnagir]
