@@ -42,3 +42,4 @@ You can also find these guard on rubygems by {searching for "guard-"}[https://ru
 - {guard-uglify}[https://github.com/guard/guard-uglify] by {Aaron Cruz}[https://github.com/pferdefleisch]
 - {guard-webrick}[https://github.com/guard/guard-webrick] by {Fletcher Nichol}[https://github.com/fnichol]
 - {guard-yard}[https://github.com/guard/guard-yard] by {Pan Thomakos}[https://github.com/panthomakos]
+- {guard-git-scribe}[https://github.com/jasonm/guard-git-scribe] by {Jason Morrison}[https://github.com/jasonm]
