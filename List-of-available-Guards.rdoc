@@ -33,6 +33,7 @@ You can also find these guard on rubygems by {searching for "guard-"}[https://ru
 - {guard-rails-assets}[https://github.com/guard/guard-rails-assets] by {Dmytrii Nagirniak}[https://github.com/dnagir]
 - {guard-rake}[https://github.com/guard/guard-rake] by {Scott Barron}[https://github.com/rubyist]
 - {guard-rocco}[https://github.com/guard/guard-rocco] by {John Bintz}[https://github.com/johnbintz]
+- {guard-ronn}[https://github.com/guard/guard-ronn] by {Rémy Coutable}[https://github.com/rymai]
 - {guard-rspec}[https://github.com/guard/guard-rspec] by {Thibaud Guillaume-Gentil}[https://github.com/thibaudgg]
 - {guard-sass}[https://github.com/guard/guard-sass] by {Joshua Hawxwell}[https://github.com/hawx]
 - {guard-shell}[https://github.com/guard/guard-shell] by {Joshua Hawxwell}[https://github.com/hawx]
