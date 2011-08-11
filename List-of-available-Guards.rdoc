@@ -37,6 +37,7 @@ You can also find these guard on rubygems by {searching for "guard-"}[https://ru
 - {guard-rspec}[https://github.com/guard/guard-rspec] by {Thibaud Guillaume-Gentil}[https://github.com/thibaudgg]
 - {guard-sass}[https://github.com/guard/guard-sass] by {Joshua Hawxwell}[https://github.com/hawx]
 - {guard-shell}[https://github.com/guard/guard-shell] by {Joshua Hawxwell}[https://github.com/hawx]
+- {guard-slim}[https://github.com/boof/guard-slim] by {Florian Aßmann}[https://github.com/boof]
 - {guard-soca}[https://github.com/guard/guard-soca] by {Luke Amdor}[https://github.com/rubbish]
 - {guard-spork}[https://github.com/guard/guard-spork] by {Thibaud Guillaume-Gentil}[https://github.com/thibaudgg]
 - {guard-sprockets}[https://github.com/guard/guard-sprockets] by {Aaron Cruz}[https://github.com/pferdefleisch]
