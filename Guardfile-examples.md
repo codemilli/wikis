@@ -8,9 +8,8 @@ group :frontend do
   end
 
   guard :pow do
-    watch('.powrc')
-    watch('.powenv')
     watch('.rvmrc')
+    watch(%r{^\.pow(rc|env)$})
     watch('Gemfile.lock')
     watch(%r{^config/.+\.rb$})
   end
