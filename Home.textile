@@ -1,6 +1,7 @@
 * [[List of available Guards]]
 * [[Guardfile examples]]
 * [[Configure keyboard shortcuts]]
+* [[Guard Cookbook]]
 
 **Development**
 
