@@ -54,3 +54,8 @@ Steps to add an event analysis of your editor:
 
     total  modify  close_write  open  filename
     4      2       1            1     coffee/test.txt
+
+## Redcar 0.12
+    total  modify  close_write  open  filename
+    4      2       1            1     coffee/script.coffee
+    
