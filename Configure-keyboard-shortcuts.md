@@ -2,7 +2,7 @@ The Guard keyboard shortcuts are in fact [signals](http://www.unix.com/man-page/
 
 Guard uses the following signals:
 
-- `SIGQUIT` => Run all
+- `SIGHUP` => Run all
 - `SIGINT` => Stop
 - `SIGTSTP` => Reload
 
