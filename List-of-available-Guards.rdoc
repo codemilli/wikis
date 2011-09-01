@@ -1,4 +1,4 @@
-You can also find these guard on rubygems by {searching for "guard-"}[https://rubygems.org/search?query=guard-]
+You can also find these guards on rubygems by {searching for "guard-"}[https://rubygems.org/search?query=guard-]
 
 - {guard-annotate}[https://github.com/guard/guard-annotate] by {Craig P Jolicoeur}[https://github.com/cpjolicoeur]
 - {guard-bundler}[https://github.com/guard/guard-bundler] by {Yann Lugrin}[https://github.com/yannlugrin]
