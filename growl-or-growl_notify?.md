@@ -1,5 +1,6 @@
 ***
-**tl;dr**: Try `growl_notify` first, use `growl` when you have some problems with it.
+**tl;dr** 
+Try `growl_notify` first, use `growl` when you have some problems with it.
 ***
 
 If you like to have [Growl](http://growl.info/) notifications on Mac OS X, you can choose between [growl_notify](https://github.com/scottdavis/growl_notify) and the older [growl](https://github.com/visionmedia/growl) gems.
