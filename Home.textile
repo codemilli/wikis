@@ -1,7 +1,10 @@
 * [[List of available Guards]]
 * [[Guardfile examples]]
-* [[growl or growl_notify?]]
 * [[Guard Cookbook]]
+
+**Installation**
+
+* [[growl or growl_notify?]]
 
 **Development**
 
