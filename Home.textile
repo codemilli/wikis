@@ -4,7 +4,7 @@
 
 **Installation**
 
-* [[growl or growl_notify]]
+* [[Use growl_notify or growl gem]]
 
 **Development**
 
