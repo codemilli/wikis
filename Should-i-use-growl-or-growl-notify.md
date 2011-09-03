@@ -1,0 +1,1 @@
+If you like to have [Growl](http://growl.info/) notifications on Mac OS X, you can choose between [growl_notify](https://github.com/scottdavis/growl_notify) and the older [growl](https://github.com/visionmedia/growl) gems.
