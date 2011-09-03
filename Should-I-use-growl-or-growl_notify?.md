@@ -1,3 +1,7 @@
+***
+**tl;dr**: Try `growl_notify` first, use `growl` when you have some problems with it.
+***
+
 If you like to have [Growl](http://growl.info/) notifications on Mac OS X, you can choose between [growl_notify](https://github.com/scottdavis/growl_notify) and the older [growl](https://github.com/visionmedia/growl) gems.
 
 The difference is how these gems interacts with Growl: **growl_notify** uses applescript bindings through [rp-appscript](http://appscript.sourceforge.net/rb-appscript/index.html), whereas **growl** executes the `growlnotify` command.
