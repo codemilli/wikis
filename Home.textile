@@ -8,6 +8,6 @@
 * [[Hooks and callbacks]]
 * [[Analysis of inotify events for different editors]]
 
-** Deprecated **
+**Deprecated**
 
 * [[Configure keyboard shortcuts]]
