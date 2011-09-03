@@ -1,10 +1,13 @@
 * [[List of available Guards]]
 * [[Guardfile examples]]
-* [[Configure keyboard shortcuts]]
-* [[Should I use growl or growl_notify?]]
+* [[growl or growl_notify?]]
 * [[Guard Cookbook]]
 
 **Development**
 
 * [[Hooks and callbacks]]
 * [[Analysis of inotify events for different editors]]
+
+** Deprecated **
+
+* [[Configure keyboard shortcuts]]
