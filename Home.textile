@@ -13,4 +13,4 @@
 
 **Deprecated**
 
-* [[Configure keyboard shortcuts]]
+* 0.7.0: [[Configure keyboard shortcuts]]
