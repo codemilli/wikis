@@ -1,7 +1,12 @@
+**Getting Started**
+
 * [[List of available Guards]]
 * [[Guardfile examples]]
-* [[Guard Cookbook]]
+
+**Advanced use of Guard**
+
 * [[Hooks and callbacks]]
+* [[Guard Cookbook]]
 
 **Installation**
 
