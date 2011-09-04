@@ -11,6 +11,6 @@
 
 * [[Analysis of inotify events for different editors]]
 
-**Deprecated**
+**Deprecated for version >= 0.7**
 
-* 0.7.0: [[Configure keyboard shortcuts]]
+* [[Configure keyboard shortcuts]]
