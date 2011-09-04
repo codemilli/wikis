@@ -1,5 +1,3 @@
-(This feature is in the "hook" branch as of April 30, 2011.)
-
 ## Hooks
 
 Guard has a hook mechanism that allows you to insert callbacks for individual Guards. By default, each of the Guard instance methods has a **"_begin"** and an **"_end"** hook. For example, the `Guard::Guard#start` method has a _:start_begin_ hook that is run immediately before `Guard::Guard#start` and a _:start_end_ hook that is run immediately after `Guard::Guard#start`.
