@@ -1,3 +1,5 @@
+**From version >= 0.7.0 Posix Signal handlers are no more used to interact with Guard.**
+
 The Guard keyboard shortcuts are in fact [signals](http://www.unix.com/man-page/All/7/signal/) that are being trapped. Signals are specified in [POSIX.1](http://www.unix.org/version3/ieee_std.html) standard and not all operating systems are full POSIX compliant (like embedded systems and windows). You can send signals to Guard with the [kill](http://www.unix.com/man-page/All/1/kill/) command on Unix like operating systems.
 
 Guard uses the following signals:
