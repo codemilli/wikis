@@ -1,6 +1,7 @@
 * [[List of available Guards]]
 * [[Guardfile examples]]
 * [[Guard Cookbook]]
+* [[Hooks and callbacks]]
 
 **Installation**
 
@@ -8,7 +9,6 @@
 
 **Development**
 
-* [[Hooks and callbacks]]
 * [[Analysis of inotify events for different editors]]
 
 **Deprecated**
