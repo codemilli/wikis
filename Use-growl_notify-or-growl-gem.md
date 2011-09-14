@@ -1,5 +1,4 @@
 ***
-**tl;dr** 
 Try `growl_notify` first, use `growl` when you have some problems with it.
 ***
 
