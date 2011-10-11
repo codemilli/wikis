@@ -10,6 +10,11 @@ Steps to add an event analysis of your editor:
 
 # Results
 
+## RubyMine (v3.2.4, Lucid 64)
+
+    total  attrib  delete_self  filename
+    3      1       1            coffee/script.coffee
+
 ## Sublime Text
 
     total  modify  close_write  open  filename
