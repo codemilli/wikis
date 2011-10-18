@@ -21,3 +21,17 @@ end
 ```
 
 If you want to do something like this in a Capistrano task run remotely, remember that you may need to include Guard and the needed plugins in a Bundler group other than development in your `Gemfile`.
+
+### Only use guard's listener notifications
+
+It may make sense for you to write your own listener loops. For example, you might want to call a specific method when a file changes. To do that, you don't need a Guardfile at all, you could simply use `Guard::Listener` like this:
+
+```ruby
+listener = Guard::Listener.select_and_init # selects an OS-specific listener
+listener.on_change do |files|              # sets a callback to be invoked whenever a file is changed
+  # do stuff with the files
+end
+listener.start                             # starts the event loop
+```
+
+This will require you to do your own filtering, but it gives you the freedom to do whatever you want with the files.
