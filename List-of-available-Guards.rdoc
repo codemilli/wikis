@@ -23,6 +23,7 @@ You can also find more guards on rubygems by {searching for "guard-"}[https://ru
 - {guard-jslint-on-rails}[https://github.com/guard/guard-jslint-on-rails] by {Ryan Sonnek}[https://github.com/wireframe]
 - {guard-jstd}[https://github.com/guard/guard-jstd] by {arailsdemo}[https://github.com/arailsdemo]
 - {guard-krl}[https://github.com/guard/guard-krl] by {Michael Farmer}[https://github.com/mikefarmer]
+- {guard-lacquer}[https://github.com/johnbintz/guard-lacquer] by {John Bintz}[https://github.com/johnbintz]
 - {guard-less}[https://github.com/guard/guard-less] by {Brendan Erwin}[https://github.com/brendanjerwin]
 - {guard-livereload}[https://github.com/guard/guard-livereload] by {Thibaud Guillaume-Gentil}[https://github.com/thibaudgg]
 - {guard-markdown}[https://github.com/guard/guard-markdown] by {Darren Wallace}[https://github.com/darwalenator]
