@@ -52,6 +52,7 @@ You can also find more guards on rubygems by {searching for "guard-"}[https://ru
 - {guard-shell}[https://github.com/guard/guard-shell] by {Joshua Hawxwell}[https://github.com/hawx]
 - {guard-slim}[https://github.com/guard/guard-slim] by {Florian Aßmann}[https://github.com/boof]
 - {guard-soca}[https://github.com/guard/guard-soca] by {Luke Amdor}[https://github.com/rubbish]
+- {guard-spin}[https://github.com/vizjerai/guard-spin] by {Andrew Assarattanakul}[https://github.com/vizjerai]
 - {guard-spork}[https://github.com/guard/guard-spork] by {Thibaud Guillaume-Gentil}[https://github.com/thibaudgg]
 - {guard-sprockets}[https://github.com/guard/guard-sprockets] by {Aaron Cruz}[https://github.com/pferdefleisch]
 - {guard-sprockets2}[https://github.com/guard/guard-sprockets2] by {Steve Hodgkiss}[https://github.com/stevehodgkiss]
