@@ -10,7 +10,10 @@ Steps to add an event analysis of your editor:
 
 # Results
 
-## RubyMine (v3.2.4, Lucid 64)
+## RubyMine (v3.2.4 && v4.0EAP, Lucid 64)
+
+Manual and auto-save events are currently indistinguishable
+To disable RubyMine's auto-save/synchronization feature: `File > Settings > General`
 
     total  attrib  delete_self  filename
     3      1       1            coffee/script.coffee
