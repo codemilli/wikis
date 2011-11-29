@@ -56,7 +56,7 @@ The frontend guy would launch Guard like this: `[bundle exec] guard -g frontend`
 While the backend guy would launch it like this: `[bundle exec] guard -g backend`
 
 
-### Example of excluding files started with dotes
+### Example of excluding files started with dot:
 
     guard 'livereload' do
       watch(%r{app/.*/[^.][^/]+\.(erb|haml|slim)})
