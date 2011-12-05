@@ -13,12 +13,16 @@ namespace :assets do
     Guard.setup
     Guard::Dsl.evaluate_guardfile(:guardfile => 'Guardfile', :group => ['frontend'])
 
-    # Guard will hopefully have a nicer way of getting at your guards:
+    # With Guard 0.8.0+ this will find the first defined 'less' guard:
+    Guard.guards('less').run_all
+    # If you're stuck on an older version for some reason, you can find manually:
     less = Guard.guards.select { |g| g.is_a? Guard::Less }.first
     less.run_all
   end
 end
 ```
+
+See [ticket #121](https://github.com/guard/guard/issues/121) for additional details.
 
 If you want to do something like this in a Capistrano task run remotely, remember that you may need to include Guard and the needed plugins in a Bundler group other than development in your `Gemfile`.
 
