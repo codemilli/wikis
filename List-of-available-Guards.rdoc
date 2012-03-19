@@ -1,6 +1,7 @@
 You can also find more guards on rubygems by {searching for "guard-"}[https://rubygems.org/search?query=guard-]
 
 - {guard-annotate}[https://github.com/guard/guard-annotate] by {Craig P Jolicoeur}[https://github.com/cpjolicoeur]
+- {guard-bacon}[https://github.com/schmurfy/guard-bacon] by {Julien Ammous}[https://github.com/schmurfy]
 - {guard-brakeman}[https://github.com/guard/guard-brakeman] by {Neil Matatall}[https://github.com/oreoshake]
 - {guard-bundler}[https://github.com/guard/guard-bundler] by {Yann Lugrin}[https://github.com/yannlugrin]
 - {guard-chef}[https://github.com/guard/guard-chef] by {James OKelly}[https://github.com/dreamr]
