@@ -40,6 +40,7 @@ You can also find more guards on rubygems by {searching for "guard-"}[https://ru
 - {guard-premailer}[https://github.com/guard/guard-premailer] by {Immanuel Häussermann}[https://github.com/manufaktor]
 - {guard-process}[https://github.com/guard/guard-process] by {Mark Kremer}[https://github.com/mkremer]
 - {guard-prove}[https://github.com/guard/guard-prove] by {Marian Schubert}[https://github.com/maio]
+- {guard-puma}[https://github.com/jc00ke/guard-puma] by {Jesse Cooke}[https://github.com/jc00ke]
 - {guard-puppet}[https://github.com/guard/guard-puppet] by {John Bintz}[https://github.com/johnbintz]
 - {guard-pusher}[https://github.com/guard/guard-pusher] by {Klaus Hartl}[https://github.com/carhartl]
 - {guard-rails}[https://github.com/guard/guard-rails] by {John Bintz}[https://github.com/johnbintz]
