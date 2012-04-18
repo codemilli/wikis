@@ -2,7 +2,7 @@ The release of Guard v1.1 introduces some changes to the API used for creating g
 
 Upgrading existing guard to Guard v1.1 is a simple process. This guide will walk you through the new changes in the API for creating guards and how to use them to upgrade existing guards. If you are only intrested in a pracitcal example of upgrading a guard, you can skip to the section about [upgrading exising guards](#upgrade-existing-guards).
 
-<a href="#new-methods"></a>
+<a href="#wiki-new-methods"></a>
 ## New methods for handling changes
 The `run_on_change` and `run_on_deletion` methods which were used to handle changes in directories are considered deprecated. Their use is not recommended as they will be removed sometime in the future. 
 
@@ -16,7 +16,7 @@ Guard v1.1 provides developers with **four** new methods for handling changes:
 
 - `run_on_changes`: This method can be used to DRY the other methods mentioned above. Shared code that needs to run on any change should be put inside it. It can also be the only method implemented if the developer wants to run the same thing on all changes. Please note that this method does not do the same thing `run_on_change` did before; it is called for all methods that are not implemented (including `run_on_removals`). When overriding any of the other `run_on_*` methods, make sure to call `super` inside the overridden method if you want this method to be called before running the overridden method.
 
-<a href="#upgrade-existing-guards"></a>
+<a href="#wiki-upgrade-existing-guards"></a>
 ## Upgrading existing guards to the new API
 
 Consider the following example implementation of a guard written for Guard before version 1.1:
