@@ -2,7 +2,7 @@ The release of Guard v1.1 introduces some changes to the API used for creating g
 
 Upgrading existing guard to Guard v1.1 is a simple process. This guide will walk you through the new changes in the API for creating guards and how to use them to upgrade existing guards. If you are only intrested in a pracitcal example of upgrading a guard, you can skip to the section about [upgrading exising guards](#upgrade-existing-guards).
 
-<a name="#new-methods"></a>
+<a name="new-methods"></a>
 ## New methods for handling changes
 The `run_on_change` and `run_on_deletion` methods which were used to handle changes in directories are considered deprecated. Their use is not recommended as they will be removed sometime in the future. 
 
