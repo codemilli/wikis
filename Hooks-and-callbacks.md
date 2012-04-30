@@ -27,16 +27,16 @@ If you have more complex code to run, you can create a separate object to contai
 # Guardfile
 class Guard::Timer
   def times
-    @times ||= {}
+    @times ||= Hash.new({})
   end
 
   def call(guard_class, event, *args)
     event.to_s =~ /(.*)_(begin|end)/
-    times[[guard_class, $1, $2]] = Time.now
+    times[$1][$2] = Time.now
     puts "#{guard_class} received these args: #{args} for #{event}"
 
     if $2 == 'end'
-      time = @times[[guard_class, $1, 'end']] - @times[[guard_class, $1, 'begin']]
+      time = times[$1]['end'] - times[$1]['begin']
       puts "#{guard_class} took #{time} seconds to run"
     end
   end
