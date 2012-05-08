@@ -69,3 +69,4 @@ You can also find more guards on rubygems by {searching for "guard-"}[https://ru
 - {guard-yeti}[https://github.com/hojberg/guard-yeti] by {Simon Højberg}[https://github.com/hojberg]
 - {guard-zen}[https://github.com/guard/guard-zen] by {azazelo}[https://github.com/azazelo]
 - {guard-frank}[https://github.com/AlexDenisov/guard-frank] by {Alex Denisov}[https://github.com/AlexDenisov]
+- {guard-calabash-ios}[https://github.com/AlexDenisov/guard-calabash-ios] by {Alex Denisov}[https://github.com/AlexDenisov]
