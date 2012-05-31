@@ -14,6 +14,8 @@
 
 **Development**
 
+* [[Create a Guard]]
+* [[Programatic use of Guard]]
 * [[Analysis of inotify events for different editors]]
 
 **Deprecated for version >= 0.7**
