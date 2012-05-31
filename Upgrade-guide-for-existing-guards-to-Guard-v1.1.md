@@ -72,3 +72,16 @@ end
 ```
 
 And you are done. Now your guard is ready for Guard v1.1!
+
+# Handling Guard failure
+
+It's a good opportunity to check your Guard's failure handling when upgrading your Guard for the 1.1 release. Whenever Guard catches an exception from your Guard, it will be kicked off the list of active Guards. If you want to signal a problem with your task execution and want to stop further processing by other Guards, you have to throw `:task_has_failed`
+
+```Ruby
+def run_all
+  if !runner.run(['all'])
+    throw :task_has_failed
+  end
+end
+```
+end
