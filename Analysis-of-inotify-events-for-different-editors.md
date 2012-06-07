@@ -67,3 +67,7 @@ To disable RubyMine's auto-save/synchronization feature: `File > Settings > Gene
     total  modify  close_write  open  filename
     4      2       1            1     coffee/script.coffee
     
+## emacs 24
+
+    total  access  modify  close_write  close_nowrite  open  filename
+    9      1       2       1            2              3     my/fine/file
