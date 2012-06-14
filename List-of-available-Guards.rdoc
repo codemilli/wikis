@@ -68,6 +68,7 @@ You can also find more guards on rubygems by {searching for "guard-"}[https://ru
 - {guard-test}[https://github.com/guard/guard-test] by {Rémy Coutable}[https://github.com/rymai]
 - {guard-tilt}[https://github.com/boof/guard-tilt] by {Florian Aßmann}[https://github.com/boof]
 - {guard-uglify}[https://github.com/guard/guard-uglify] by {Aaron Cruz}[https://github.com/pferdefleisch]
+- {guard-unicorn}[https://github.com/xhr/guard-unicorn] by {Andrei Maxim}[https://github.com/xhr]
 - {guard-webrick}[https://github.com/guard/guard-webrick] by {Fletcher Nichol}[https://github.com/fnichol]
 - {guard-yard}[https://github.com/guard/guard-yard] by {Pan Thomakos}[https://github.com/panthomakos]
 - {guard-yeti}[https://github.com/hojberg/guard-yeti] by {Simon Højberg}[https://github.com/hojberg]
