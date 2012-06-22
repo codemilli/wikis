@@ -11,6 +11,7 @@ You can also find more guards on rubygems by {searching for "guard-"}[https://ru
 - {guard-compass}[https://github.com/guard/guard-compass] by {Olivier Amblet}[https://github.com/oliamb]
 - {guard-cucumber}[https://github.com/guard/guard-cucumber] by {Michael Kessler}[https://github.com/netzpirat]
 - {guard-delayed}[https://github.com/guard/guard-delayed] by {David Parry}[https://github.com/suranyami]
+- {guard-docbook-status}[https://github.com/guard/guard-docbook-status] by {Rainer Volz}[https://github.com/rvolz]
 - {guard-erb}[https://github.com/omarramos/guard-erb] by {Omar Ramos}[https://github.com/omarramos]
 - {guard-flopbox}[https://github.com/guard/guard-flopbox] by {Vincent Chu}[https://github.com/vincentchu]
 - {guard-frank}[https://github.com/AlexDenisov/guard-frank] by {Alex Denisov}[https://github.com/AlexDenisov]
