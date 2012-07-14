@@ -57,6 +57,7 @@ You can also find more guards on rubygems by {searching for "guard-"}[https://ru
 - {guard-resque}[https://github.com/guard/guard-resque] by {Jacques Crocker}[https://github.com/railsjedi]
 - {guard-rocco}[https://github.com/guard/guard-rocco] by {John Bintz}[https://github.com/johnbintz]
 - {guard-ronn}[https://github.com/guard/guard-ronn] by {Rémy Coutable}[https://github.com/rymai]
+- {guard-rrails}[https://github.com/walf443/guard-rrails] by {Keiji Yoshimi}[https://github.com/walf443]
 - {guard-rspec}[https://github.com/guard/guard-rspec] by {Thibaud Guillaume-Gentil}[https://github.com/thibaudgg]
 - {guard-s3}[https://github.com/guard/guard-s3] by {James Welsh}[https://github.com/jwelshiv]
 - {guard-sass}[https://github.com/guard/guard-sass] by {Joshua Hawxwell}[https://github.com/hawx]
