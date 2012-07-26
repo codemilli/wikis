@@ -26,6 +26,31 @@ See [ticket #121](https://github.com/guard/guard/issues/121) for additional deta
 
 If you want to do something like this in a Capistrano task run remotely, remember that you may need to include Guard and the needed plugins in a Bundler group other than development in your `Gemfile`.
 
+### Use Guard from a simple Ruby script
+
+In case you can't or don't want to use a Rake task, it's also possible to invoke Guard from a simple script file – which you can run using `bundle exec ruby myscript.rb` from the Terminal console.
+
+```ruby
+require 'rubygems'
+require 'bundler/setup'
+
+require 'guard'
+require 'rake'
+
+# Optional: If you use Guard::Rake you also have to manually start up Rake to be able to process the Rakefile
+rake = Rake::Application.new
+Rake.application = rake
+rake.init
+rake.load_rakefile
+
+# Let's load Guard and process the Guardfile
+Guard.setup()
+Guard::Dsl.evaluate_guardfile(:guardfile => 'Guardfile')
+
+# Finally run all Guards
+Guard.run_all({})
+```
+
 ### Only use guard's listener notifications
 
 It may make sense for you to write your own listener loops. For example, you might want to call a specific method when a file changes. To do that, you don't need a Guardfile at all, you could simply use `Guard::Listener` like this:
