@@ -44,7 +44,7 @@ rake.init
 rake.load_rakefile
 
 # Let's load Guard and process the Guardfile
-Guard.setup()
+Guard.setup
 Guard::Dsl.evaluate_guardfile(:guardfile => 'Guardfile')
 
 # Finally run all Guards
