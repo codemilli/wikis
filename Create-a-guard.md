@@ -1,9 +1,8 @@
 Creating a new Guard is very easy. For example, to create a Guard named `yoyo` just create a new gem by running `bundle gem guard-yoyo`. Please make your Guard start with `guard-`, so that it can easily be found on RubyGems.
 
 ```bash
-$ mkdir guard-yoyo
-$ cd guard-yoyo
 $ bundle gem guard-yoyo
+$ cd guard-yoyo
 ```
 
 Now extend the project structure to have an initial Guard:
