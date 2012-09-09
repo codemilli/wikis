@@ -62,5 +62,6 @@ listener.on_change do |files|                  # sets a callback to be invoked w
 end
 listener.start                                 # starts the event loop
 ```
+This does not work because it throws a `<main>': uninitialized constant Guard::Listener (NameError)
 
 This will require you to do your own filtering, but it gives you the freedom to do whatever you want with the files.
