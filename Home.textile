@@ -11,6 +11,7 @@
 
 **Installation**
 
+* [[Install Ruby with Readline instead Libedit]] 
 * [[Which Growl library should I use]]
 
 **Development**
