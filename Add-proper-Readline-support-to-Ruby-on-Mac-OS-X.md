@@ -47,7 +47,7 @@ $ brew install readline
 Then configure RVM to use the Homebrew readline by adding
 
 ```Bash
-ruby_configure_flags=--enable-shared --disable-install-doc --with-readline-dir=$(brew --prefix readline)
+ruby_configure_flags=--enable-shared --disable-install-doc --with-readline-dir=/usr/local/opt/readline
 ```
 
 to `~/.rvm/user/db`. Finally you need to reinstall your Ruby of choice:
