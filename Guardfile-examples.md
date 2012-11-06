@@ -90,7 +90,8 @@ group 'tests-with-spork' do
     watch(%r{^spec/routing/.+_spec\.rb$})
     watch(%r{^spec/requests/.+_spec\.rb$})
 
-    watch(%r{^app/(.+)\.rb$}) { |m| "spec/#{m[1]}_spec.rb" }
+    watch(%r{^app/models/(.+)\.rb$}) { |m| "spec/models/#{m[1]}_integration_spec.rb" }
+    watch(%r{^app/helpers/(.+)\.rb$}) { |m| "spec/helpers/#{m[1]}_spec.rb" }
     watch(%r{^app/controllers/(.+)_(controller)\.rb$}) do |m|
       [
               "spec/routing/#{m[1]}_routing_spec.rb",
