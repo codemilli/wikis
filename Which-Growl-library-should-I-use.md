@@ -1,12 +1,12 @@
 ***
-Try `growl_notify` first if you're on MRI or `ruby_gntp` if you're on JRuby, MacRuby or Rubinius. Use `growl` when you have some problems with both.
+Try `ruby_gntp` first, use `growl` when you have some problems with it.
 ***
 
 If you like to have [Growl](http://growl.info/) notifications on Mac OS X, you can choose between the following:
 
-* [growl_notify](https://github.com/scottdavis/growl_notify) 
 * [ruby_gntp](https://github.com/snaka/ruby_gntp)
 * [growl](https://github.com/visionmedia/growl)
+* [growl_notify](https://github.com/scottdavis/growl_notify) 
 
 The difference is how these gems interacts with Growl: **growl_notify** uses applescript bindings through [rb-appscript](http://appscript.sourceforge.net/rb-appscript/index.html), **ruby_gntp** sends network packages via the Growl Notification Transport Protocol and  **growl** executes the `growlnotify` command.
 
