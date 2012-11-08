@@ -56,7 +56,7 @@ to `~/.rvm/user/db`. Finally you need to reinstall your Ruby of choice:
 $ rvm reinstall 1.9.2
 ```
 
-# Using rbenv, ruby_build and homebrew
+# Using rbenv, ruby_build and Homebrew
 
 As a rbenv user, you can install readline and ruby_build with Homebrew:
 
