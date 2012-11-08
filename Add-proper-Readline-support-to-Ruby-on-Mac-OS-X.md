@@ -27,7 +27,7 @@ $ rvm pkg install readline --verify-downloads 1
 Then configure RVM to use the readline package by adding
 
 ```Bash
-ruby_configure_flags=--enable-shared --disable-install-doc --with-readline-dir="$rvm_path/usr"
+ruby_configure_flags=--with-readline-dir="$rvm_path/usr"
 ```
 
 to `~/.rvm/user/db`. Finally you need to reinstall your Ruby of choice:
@@ -47,11 +47,25 @@ $ brew install readline
 Then configure RVM to use the Homebrew readline by adding
 
 ```Bash
-ruby_configure_flags=--enable-shared --disable-install-doc --with-readline-dir=/usr/local/opt/readline
+ruby_configure_flags=--with-readline-dir=/usr/local/opt/readline
 ```
 
 to `~/.rvm/user/db`. Finally you need to reinstall your Ruby of choice:
 
 ```Bash
 $ rvm reinstall 1.9.2
+```
+
+# Using rbenv, ruby_build and homebrew
+
+As a rbenv user, you can install readline and ruby_build with Homebrew:
+
+```bash
+$ brew install readline ruby_build
+```
+
+now set the configure options when compile Ruby:
+
+```
+$ CONFIGURE_OPTS=--with-readline-dir=`brew --prefix readline` rbenv install 1.9.3-p286
 ```
