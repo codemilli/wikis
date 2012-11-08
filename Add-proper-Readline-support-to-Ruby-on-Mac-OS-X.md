@@ -33,7 +33,7 @@ ruby_configure_flags=--with-readline-dir="$rvm_path/usr"
 to `~/.rvm/user/db`. Finally you need to reinstall your Ruby of choice:
 
 ```Bash
-$ rvm reinstall 1.9.2
+$ rvm reinstall 1.9.3
 ```
 
 ## Using RVM and Homebrew
@@ -53,7 +53,7 @@ ruby_configure_flags=--with-readline-dir=/usr/local/opt/readline
 to `~/.rvm/user/db`. Finally you need to reinstall your Ruby of choice:
 
 ```Bash
-$ rvm reinstall 1.9.2
+$ rvm reinstall 1.9.3
 ```
 
 # Using rbenv, ruby_build and Homebrew
