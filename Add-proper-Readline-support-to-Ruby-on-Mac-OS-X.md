@@ -2,18 +2,6 @@ If you are on Mac OS X and have problems with either Guard not reacting to file 
 
 If you are not using Mac OS X or are using JRuby, then you're fine.
 
-## Using a pure Ruby readline implementation
-
-The easiest way to get a working readline implementation is to install [rb-readline](https://github.com/luislavena/rb-readline), pure Ruby readline implementation. You can install it by simply adding
-
-```Ruby
-group :development do
-  gem 'rb-readline'
-end
-```
-
-to your `Gemfile` and install it with `bundle exec`.
-
 ## Build Ruby with GNU readline
 
 ## Using RVM
@@ -69,3 +57,17 @@ now set the configure options when compile Ruby:
 ```
 $ CONFIGURE_OPTS=--with-readline-dir=`brew --prefix readline` rbenv install 1.9.3-p286
 ```
+
+## Using a pure Ruby readline implementation
+
+The easiest way to get a working readline implementation is to install [rb-readline](https://github.com/luislavena/rb-readline), a pure Ruby readline implementation. However there have been reported issues with it, so you better want to compile your Ruby with real Readline support.
+
+You can install it by simply adding
+
+```Ruby
+group :development do
+  gem 'rb-readline'
+end
+```
+
+to your `Gemfile` and install it with `bundle exec`.
