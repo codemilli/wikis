@@ -60,9 +60,7 @@ $ CONFIGURE_OPTS=--with-readline-dir=`brew --prefix readline` rbenv install 1.9.
 
 ## Using a pure Ruby readline implementation
 
-The easiest way to get a working readline implementation is to install [rb-readline](https://github.com/luislavena/rb-readline), a pure Ruby readline implementation. However there have been reported issues with it, so you better want to compile your Ruby with real Readline support.
-
-You can install it by simply adding
+The easiest way to get a working readline implementation is to install [rb-readline](https://github.com/luislavena/rb-readline), a pure Ruby readline implementation. You can install it by simply adding
 
 ```Ruby
 group :development do
@@ -71,3 +69,5 @@ end
 ```
 
 to your `Gemfile` and install it with `bundle exec`.
+
+**There have been reported some issues with `rb-readline`, so you better want to compile your Ruby with real Readline support.**
