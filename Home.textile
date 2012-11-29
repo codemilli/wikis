@@ -11,7 +11,7 @@
 **Cookbooks**
 
 * [[Use Guard programmatically]]
-* [[Custom Pry Commans]]
+* [[Custom pry command cookbook]]
 
 **Installation**
 
