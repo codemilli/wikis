@@ -6,13 +6,13 @@ This commands allows you to switch the used RSpec formatter quickly:
 
 ```ruby
 Pry::Commands.block_command 'fuu', "Use fuubar formatter in rspec" do
-  options = ::Guard.guards(:rspec).options
+  options = ::Guard.guards(:rspec).instance_variable_get('@runner').instance_variable_get('@options')
   options[:cli] = options[:cli].sub(/\-\-format \w+/, '--format fuubar')
   output.puts "Using Fuubar as RSpec formatter."
 end
 
 Pry::Commands.block_command 'doc', "Use documentation formatter in rspec" do
-  options = ::Guard.guards(:rspec).options
+  options = ::Guard.guards(:rspec).instance_variable_get('@runner').instance_variable_get('@options')
   options[:cli] = options[:cli].sub(/\-\-format \w+/, '--format documentation')
   output.puts "Using Documentation as RSpec formatter."
 end
