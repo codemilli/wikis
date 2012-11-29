@@ -10,8 +10,8 @@
 
 **Cookbooks**
 
-* [[Guard Cookbook]]
-* [[Pry Command Cookbook]]
+* [[Use Guard programmatically]]
+* [[Custom Pry Commans]]
 
 **Installation**
 
