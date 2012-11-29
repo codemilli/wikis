@@ -4,7 +4,7 @@ Pry allows you to create custom commands, so you can customize the Guard interac
 
 This commands allows you to switch the used RSpec formatter quickly:
 
-```Ruby
+```ruby
 Pry::Commands.block_command 'fuu', "Use fuubar formatter in rspec" do
   options = ::Guard.guards(:rspec).options
   options[:cli] = options[:cli].sub(/\-\-format \w+/, '--format fuubar')
