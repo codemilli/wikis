@@ -30,6 +30,7 @@ You can also install the latest Readline with [Homebrew](http://mxcl.github.com/
 
 ```Bash
 $ brew install readline
+$ brew lind readline
 ```
 
 Then configure RVM to use the Homebrew readline by adding
