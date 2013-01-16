@@ -85,6 +85,8 @@ end
 Please take a look at the source code of some of the [existing Guards](https://github.com/guard)
 for more concrete example and inspiration.
 
+## Inline Guard
+
 Alternatively, a new Guard can be added inline to a `Guardfile` with this basic structure:
 
 ```ruby
