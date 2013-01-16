@@ -50,7 +50,7 @@ $ rvm reinstall 1.9.3
 As a rbenv user, you can install readline and ruby_build with Homebrew:
 
 ```bash
-$ brew install readline ruby_build
+$ brew install readline ruby-build
 ```
 
 now set the configure options when compile Ruby:
