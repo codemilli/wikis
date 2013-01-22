@@ -1,4 +1,4 @@
-If you are on Mac OS X and have problems with either Guard not reacting to file changes or Pry behaving strange, then you probably suffer under a Ruby build that uses `libedit` instead of `readline`.
+If you are on Mac OS X and have problems with either Guard not reacting to file changes or Pry behaving strangely, then you probably suffer under a Ruby build that uses `libedit` instead of `readline`.
 
 If you are not using Mac OS X or are using JRuby, then you're fine.
 
