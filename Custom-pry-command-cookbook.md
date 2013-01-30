@@ -20,10 +20,13 @@ end
 
 ## Disable plugins unneeded for Guard interaction
 
-If you're using a plugin like [pry-stack_explorer] for development mode debugging of your app, its state output like frame number indication is unwanted noise in Guard's Pry instance. So, use `~/.guardrc` to disable such plugins for Guard only.
+`~/.guardrc` is just a [pryrc] that is specific to Guard, so you can use it to disable plugins only in Guard's Pry instance and not those you normally use in development. For instance, [pry-stack_explorer] is a useful plugin for debugging, but its state output such as frame number indication is unwanted noise in Guard output. So, in `~/.guardrc` simply disable it:
 
 ```ruby
-Pry.plugins['stack_explorer'].disable! if Pry.plugins['stack_explorer'].enabled?
+Pry.plugins['stack_explorer'] && Pry.plugins['stack_explorer'].disable!
 ```
 
+Note that rc files are evaluated *before* plugins are fully loaded.
+
+[pryrc]: https://github.com/pry/pry/wiki/Pry-rc
 [pry-stack_explorer]: https://github.com/pry/pry-stack_explorer
