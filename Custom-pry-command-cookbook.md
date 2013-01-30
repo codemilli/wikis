@@ -17,3 +17,13 @@ Pry::Commands.block_command 'doc', "Use documentation formatter in rspec" do
   output.puts "Using Documentation as RSpec formatter."
 end
 ```
+
+## Disable plugins unneeded for Guard interaction
+
+If you're using a plugin like [pry-stack_explorer] for development mode debugging of your app, its state output like frame number indication is unwanted noise in Guard's Pry instance. So, use `~/.guardrc` to disable such plugins for Guard only.
+
+```ruby
+Pry.plugins['stack_explorer'].disable! if Pry.plugins['stack_explorer'].enabled?
+```
+
+[pry-stack_explorer]: https://github.com/pry/pry-stack_explorer
