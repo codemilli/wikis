@@ -18,4 +18,7 @@ The downside of growl_notify is that there are some known issues:
 * It doesn't work on MacRuby.
 * It _may_ give you an [exception](https://gist.github.com/1151368) when using with [Spork](https://github.com/timcharper/spork), but others have reported that it works well.
 
+If growl (and/or growlnotify) are working outside of Guard, but are not working when you use rspec via spork, make absolutely sure that the environment variable SPEC_OPTS is not set.  If it is, it will take precedence over the arguments spork passes to rspec invaliding the custom formatter requested (which is what is responsible for making the notifications)
+
 Please feel free to add your experience.
+
