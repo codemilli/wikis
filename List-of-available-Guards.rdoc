@@ -31,6 +31,7 @@ You can also find more guards on rubygems by {searching for "guard-"}[https://ru
 - {guard-js-static-require}[https://github.com/wilkerlucio/guard-js-static-require] by {Wilker Lúcio}[https://github.com/wilkerlucio]
 - {guard-jslint-on-rails}[https://github.com/guard/guard-jslint-on-rails] by {Ryan Sonnek}[https://github.com/wireframe]
 - {guard-jstd}[https://github.com/guard/guard-jstd] by {arailsdemo}[https://github.com/arailsdemo]
+- {guard-konacha}[https://github.com/alexgb/guard-konacha] by {Alex Gibbons}[https://github.com/alexgb]
 - {guard-krl}[https://github.com/guard/guard-krl] by {Michael Farmer}[https://github.com/mikefarmer]
 - {guard-lacquer}[https://github.com/johnbintz/guard-lacquer] by {John Bintz}[https://github.com/johnbintz]
 - {guard-less}[https://github.com/guard/guard-less] by {Brendan Erwin}[https://github.com/brendanjerwin]
