@@ -56,7 +56,7 @@ $ brew install readline ruby-build
 now set the configure options when compile Ruby:
 
 ```
-$ CONFIGURE_OPTS=--with-readline-dir=`brew --prefix readline` rbenv install 1.9.3-p286
+$ RUBY_CONFIGURE_OPTS=--with-readline-dir=`brew --prefix readline` rbenv install 1.9.3-p286
 ```
 
 ## Using a pure Ruby readline implementation
