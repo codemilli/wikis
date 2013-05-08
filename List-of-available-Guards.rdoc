@@ -52,6 +52,7 @@ You can also find more guards on rubygems by {searching for "guard-"}[https://ru
 - {guard-puma}[https://github.com/jc00ke/guard-puma] by {Jesse Cooke}[https://github.com/jc00ke]
 - {guard-puppet}[https://github.com/guard/guard-puppet] by {John Bintz}[https://github.com/johnbintz]
 - {guard-pusher}[https://github.com/guard/guard-pusher] by {Klaus Hartl}[https://github.com/carhartl]
+- {guard-pushover}[https://github.com/joenas/guard-pushover] by {Jon Neverland}[https://github.com/joenas]
 - {guard-rails}[https://github.com/guard/guard-rails] by {John Bintz}[https://github.com/johnbintz]
 - {guard-rails-assets}[https://github.com/guard/guard-rails-assets] by {Dmytrii Nagirniak}[https://github.com/dnagir]
 - {guard-rails_best_practices}[https://github.com/logankoester/guard-rails_best_practices] by {Logan Koester}[https://github.com/logankoester]
