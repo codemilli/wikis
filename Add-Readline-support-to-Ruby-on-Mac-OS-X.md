@@ -70,5 +70,3 @@ end
 ```
 
 to your `Gemfile` and install it with `bundle exec`.
-
-There have been reported some issues with `rb-readline`, so you better want to compile your Ruby with real Readline support. - **Please provide links to rb-readline issues, I'm aware of one instance of rb-readline and guard on Mac OSX 10.7 working fine at time of writing.**
