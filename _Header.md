@@ -1,0 +1,1 @@
+<img src="http://img515.imageshack.us/img515/1358/guardicon.png" alt="Guard Icon" align="right" height="150" width="154"/>
