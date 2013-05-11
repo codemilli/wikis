@@ -1,4 +1,4 @@
-<img src="http://img515.imageshack.us/img515/1358/guardicon.png" alt="Guard Icon" align="right" />
+<img src="http://img515.imageshack.us/img515/1358/guardicon.png" alt="Guard Icon" />
 
 **Guard is a command line tool to easily handle events on file system modifications.**
 
