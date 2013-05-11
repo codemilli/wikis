@@ -1,6 +1,6 @@
 **Installation**
 
-* [[Add proper Readline support to Ruby on Mac OS X]] 
+* [[Add Readline support to Ruby on Mac OS X]] 
 * [[Which Growl library should I use]]
 * [[Efficient Filesystem Handling]]
 
