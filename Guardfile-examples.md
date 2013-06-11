@@ -1,6 +1,13 @@
-# A real-world Guardfile used in a big Rails project:
+
+***
 
 ```ruby
+ignore %r{^ignored/path/}, /public/
+filter /\.txt$/, /.*\.zip/
+
+notification :growl_notify
+notification :gntp, :host => '192.168.1.5'
+
 group :frontend do
 
   guard :bundler do
@@ -55,8 +62,9 @@ The frontend guy would launch Guard like this: `[bundle exec] guard -g frontend`
 
 While the backend guy would launch it like this: `[bundle exec] guard -g backend`
 
+***
 
-# Example of excluding files started with dot:
+Example of excluding files started with dot:
 
 ```ruby
 guard 'livereload' do
@@ -69,7 +77,9 @@ guard 'livereload' do
 end
 ```
 
-# Using 2 guard-rspec: 1 for spork, 1 for unit tests
+***
+
+Using 2 guard-rspec: 1 for spork, 1 for unit tests
 
 I have adopted Avdi Grimm's naming convention for integration specs: *_integration_spec.rb
 
