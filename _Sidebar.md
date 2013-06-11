@@ -14,6 +14,7 @@
 
 **Advanced use of Guard**
 
+* [[Shared configurations]]
 * [[Hooks and callbacks]]
 
 **Cookbooks**
