@@ -1,6 +1,3 @@
-
-***
-
 ```ruby
 ignore %r{^ignored/path/}, /public/
 filter /\.txt$/, /.*\.zip/
