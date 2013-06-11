@@ -1,6 +1,8 @@
 **Installation**
 
-* [[Add Readline support to Ruby on Mac OS X]] 
+* [[System Notifications]]
+* [[Terminal Colors on Windows]]
+* [[Add Readline support to Ruby on Mac OS X]]
 * [[Which Growl library should I use]]
 * [[Efficient Filesystem Handling]]
 
