@@ -12,7 +12,7 @@ available channels and makes use of them.
 
 The [ruby_gntp](https://rubygems.org/gems/ruby_gntp) gem sends system notifications over the network with the
 [Growl Notification Transport Protocol](http://www.growlforwindows.com/gfw/help/gntp.aspx) and supports local and
-remote notifications. To have the images be displayed, you have to use `127.0.0.1` instead of `localhost` in your GTNP
+remote notifications. To have the images be displayed, you have to use `127.0.0.1` instead of `localhost` in your GNTP
 configuration.
 
 Guard supports multiple notification channels for customizing each notification type. For Growl on Mac OS X you need
