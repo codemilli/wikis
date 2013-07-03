@@ -17,7 +17,7 @@ Guard.run_all group: :features
 Guard.run_all groups: [:features, :documentation]
 ```
 
-Evaluate a `Guardfile`:
+Specify a custom `Guardfile` path:
 
 ```ruby
 require 'guard'
@@ -25,7 +25,7 @@ require 'guard'
 Guard.setup(guardfile: '/path/to/Guardfile')
 ```
 
-Evaluate a string as `Guardfile`:
+Start Guard and with a `Guardfile` as a string:
 
 ```ruby
 require 'guard'
@@ -36,7 +36,7 @@ guardfile = <<-EOF
   end
 EOF
 
-# You can omit the call to Guard.setup, Guard.run_all will call Guard.setup
+# You can omit the call to Guard.setup, Guard.start will call Guard.setup
 # under the hood if Guard has not been setuped yet
 Guard.start(guardfile_contents: guardfile)
 ```
