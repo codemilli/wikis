@@ -37,6 +37,7 @@ You can also find more guards on rubygems by {searching for "guard-"}[https://ru
 - {guard-less}[https://github.com/guard/guard-less] by {Brendan Erwin}[https://github.com/brendanjerwin]
 - {guard-livereload}[https://github.com/guard/guard-livereload] by {Thibaud Guillaume-Gentil}[https://github.com/thibaudgg]
 - {guard-markdown}[https://github.com/guard/guard-markdown] by {Darren Wallace}[https://github.com/darwalenator]
+- {guard-maven}[https://github.com/guard/guard-maven] by {Jeremy Baker}[https://github.com/jhubert]
 - {guard-middleman}[https://github.com/guard/guard-middleman] by {Matthias Döring}[https://github.com/matt-hh]
 - {guard-migrate}[https://github.com/guard/guard-migrate] by {Geoff Lanotte}[https://github.com/glanotte]
 - {guard-minitest}[https://github.com/guard/guard-minitest] by {Yann Lugrin}[https://github.com/yannlugrin]
