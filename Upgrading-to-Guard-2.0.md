@@ -1,6 +1,6 @@
 _This is a WIP, please not edit. Thanks, [@rymai](https://github.com/rymai)._
 
-**Guard 2.0 comes with several API changes (the majority is backward-compatible, but not all).**
+Guard 2.0 is a major update and comes with several API changes. Most of these changes are actually new methods (the old methods are deprecated). Following is the exhaustive list of these changes (**mostly useful for Guard plugins authors**).
 
 ## Changes in `Guard`
 
@@ -80,3 +80,5 @@ Notifiers are now classes with a common interface inherited from `Guard::Notifie
 * [optional] `.gem_name`
 
 **Breaking change:** The signature of `#notify` in the notifiers has changed from `#notify(type, title, message, image, options = {})` to `notify(message, opts = {})` (`:type`, `:title` and `:image` must now be passed in the `opts` hash.
+
+Even though the notifiers system (including the notifiers `#notify` methods signature) has been completely rewritten, this shouldn't create any issues since individual notifiers' interface shouldn't be called directly. You should always use the `Guard::Notifier.notify` method instead.
