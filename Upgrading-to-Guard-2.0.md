@@ -69,3 +69,14 @@ end
 ### Removed methods
 
 * `Guard::Guardfile.duplicate_definitions?` has been removed and replaced by `Guard::Guardfile::Evaluator#guardfile_include?(plugin_name)`
+
+## New notifiers system
+
+Notifiers are now classes with a common interface inherited from `Guard::Notifier::Base`:
+
+* [require] `#notify(message, opts = {})`
+* [optional] `.supported_hosts`
+* [optional] `.available?(opts = {})`
+* [optional] `.gem_name`
+
+**Breaking change:** The signature of `#notify` in the notifiers has changed from `#notify(type, title, message, image, options = {})` to `notify(message, opts = {})` (`:type`, `:title` and `:image` must now be passed in the `opts` hash.
