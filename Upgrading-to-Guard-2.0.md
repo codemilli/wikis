@@ -27,6 +27,7 @@ module Guard
   class Bundler < Plugin
     def initialize(options = {})
       super
+      # you can still access the watchers with options[:watchers]
       # rest of the implementation...
     end
   end
