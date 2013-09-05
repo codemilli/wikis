@@ -1,5 +1,3 @@
-_This is a WIP, please not edit. Thanks, [@rymai](https://github.com/rymai)._
-
 Guard 2.0 is a major update and comes with several API changes. Most of these changes are actually new methods (the old methods are deprecated). Following is the exhaustive list of these changes (**mostly useful for Guard plugins authors**).
 
 ## Changes in `Guard`
