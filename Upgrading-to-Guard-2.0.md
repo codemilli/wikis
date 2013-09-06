@@ -40,7 +40,7 @@ should become:
 
 ```ruby
 module Guard
-  class Bundler < Plugin
+  class RSpec < Plugin
     def initialize(options = {})
       super
       # you can still access the watchers with options[:watchers]
