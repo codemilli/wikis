@@ -2,14 +2,14 @@ Guard 2.0 is a major update and comes with several API changes. Most of these ch
 
 ## Changes in `Guard`
 
-### Method behavior changes
+### New methods
 
-* `Guard.guards(filter = nil)` (deprecated below) / `Guard.plugins(filter = nil)`: the return value has changed: it returns a single `Plugin` if there's only one matching, or an array of `Plugin`s otherwise)
-* `Guard.groups(filter = nil)`: the return value has changed: it returns a single `Group` if there's only one matching, or an array of `Group`s otherwise)
+* `Guard.plugin(filter)`: Allows to return the first plugin matching the given filter. Filtering works exactly as for `Guard.plugins(filter = nil)`.
+* `Guard.group(filter)`: Allows to return the first group matching the given filter. Filtering works exactly as for `Guard.groups(filter = nil)`.
 
 ### Deprecated methods
 
-* `Guard.guards(filter = nil)` is deprecated and replaced by `Guard.plugins(filter = nil)` (be careful, its return value has changed: it returns a single `Plugin` if there's only one matching, or an array of `Plugin`s otherwise)
+* `Guard.guards(filter = nil)` is deprecated and replaced by `Guard.plugins(filter = nil)`
 * `Guard.add_guard(name, options = {})` is deprecated and replaced by `Guard.add_plugin(name, options = {})`
 * `Guard.get_guard_class(name, fail_gracefully = false)` is deprecated and replaced by `Guard::PluginUtil.new(name).plugin_class(:fail_gracefully =>
       fail_gracefully)`
