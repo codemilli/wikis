@@ -13,6 +13,7 @@ You can also find more guards on rubygems by {searching for "guard-"}[https://ru
 - {guard-cunit}[https://github.com/teacup-on-rockingchair/guard-cunit] by {teacup_on_rc}[https://github.com/teacup-on-rockingchair]
 - {guard-delayed}[https://github.com/guard/guard-delayed] by {David Parry}[https://github.com/suranyami]
 - {guard-docbook-status}[https://github.com/guard/guard-docbook-status] by {Rainer Volz}[https://github.com/rvolz]
+- {guard-elixir}[https://github.com/webcoyote/guard-elixir] by {Patrick Wyatt}[https://github.com/webcoyote]
 - {guard-erb}[https://github.com/omarramos/guard-erb] by {Omar Ramos}[https://github.com/omarramos]
 - {guard-flopbox}[https://github.com/guard/guard-flopbox] by {Vincent Chu}[https://github.com/vincentchu]
 - {guard-frank}[https://github.com/AlexDenisov/guard-frank] by {Alex Denisov}[https://github.com/AlexDenisov]
