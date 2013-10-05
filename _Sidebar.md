@@ -26,5 +26,6 @@
 
 * [[Create a Guard]]
 * [[Programmatic use of Guard]]
+* [[Upgrading to Guard 2.0]]
 * [[Upgrade guide for existing guards to Guard v1.1]]
 * [[Analysis of inotify events for different editors]]
