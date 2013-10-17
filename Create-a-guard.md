@@ -32,20 +32,20 @@ Here is an example scaffold for `lib/guard/yoyo.rb`:
 
 ```ruby
 require 'guard'
-require 'guard/guard'
+require 'guard/plugin'
 
 module Guard
-  class Yoyo < Guard
+  class Yoyo < Plugin
 
     # Initializes a Guard plugin.
     # Don't do any work here, especially as Guard plugins get initialized even if they are not in an active group!
     #
-    # @param [Array<Guard::Watcher>] watchers the Guard plugin file watchers
     # @param [Hash] options the custom Guard plugin options
+    # @option options [Array<Guard::Watcher>] watchers the Guard plugin file watchers
     # @option options [Symbol] group the group this Guard plugin belongs to
     # @option options [Boolean] any_return allow any object to be returned from a watcher
     #
-    def initialize(watchers = [], options = {})
+    def initialize(options = {})
       super
     end
 
@@ -130,10 +130,10 @@ for more concrete example and inspiration.
 Alternatively, a new Guard can be added inline to a `Guardfile` with this basic structure:
 
 ```ruby
-require 'guard/guard'
+require 'guard/plugin'
 
 module ::Guard
-  class InlineGuard < ::Guard::Guard
+  class InlineGuard < ::Guard::Plugin
     def run_all
     end
 
