@@ -140,14 +140,19 @@ The way these messages are formatted is configurable.
 ```ruby
 # Guardfile
 notification :tmux,
-  :display_message => true,
-  :timeout => 5, # in seconds
-  :default_message_format => '%s >> %s',
+  display_message: true,
+  timeout: 5, # in seconds
+  default_message_format: '%s >> %s',
   # the first %s will show the title, the second the message
   # Alternately you can also configure *success_message_format*,
   # *pending_message_format*, *failed_message_format*
-  :line_separator => ' > ', # since we are single line we need a separator
-  :color_location => 'status-left-bg' # to customize which tmux element will change color
+  line_separator: ' > ', # since we are single line we need a separator
+  color_location: 'status-left-bg' # to customize which tmux element will change color
+```
+The color location option can also take an array:
+
+```
+color_location: %w[status-left-bg pane-active-border-fg pane-border-fg]
 ```
 
 The result will be for RSpec using example above
@@ -184,6 +189,6 @@ Configuration:
 ```ruby
 # Guardfile
 notification :file,
-  :path => '.guard_result', # Required, no default
-  :format => "result: %s\ntitle: %s\nmessage: %s\n" # Default: "%s\n%s\n%s\n"
+  path: '.guard_result', # Required, no default
+  format: "result: %s\ntitle: %s\nmessage: %s\n" # Default: "%s\n%s\n%s\n"
 ```
