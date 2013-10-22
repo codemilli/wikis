@@ -24,7 +24,7 @@ test/ # or spec/
 README.md
 ```
 
-Your Guard main class `Guard::Yoyo` in `lib/guard/guard-yoyo.rb` must inherit from
+Your Guard main class `Guard::Yoyo` in `lib/guard/yoyo.rb` must inherit from
 [Guard::Guard](http://rubydoc.info/github/guard/guard/master/Guard/Guard) and should overwrite at least the
 `#run_on_change` task methods.
 
