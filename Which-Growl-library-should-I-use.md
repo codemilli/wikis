@@ -10,7 +10,7 @@ If you like to have [Growl](http://growl.info/) notifications on Mac OS X, you c
 
 The difference is how these gems interacts with Growl: **growl_notify** uses applescript bindings through [rb-appscript](http://appscript.sourceforge.net/rb-appscript/index.html), **ruby_gntp** sends network packages via the Growl Notification Transport Protocol and  **growl** executes the `growlnotify` command.
 
-The benefit of both growl_notify and ruby_gntp is that you don't have to [download](http://growl.info/extras.php) and install the `growlnotify` command manually, so this is generally the recommended way of getting growl support. If you have [Homebrew](http://mxcl.github.com/homebrew/) installed, you'd simply install growlnotify with `brew install growlnotify`.
+The benefit of both growl_notify and ruby_gntp is that you don't have to [download](http://growl.info/extras.php) and install the `growlnotify` command manually, so this is generally the recommended way of getting growl support.
 
 The downside of growl_notify is that there are some known issues:
 
