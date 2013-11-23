@@ -21,6 +21,7 @@ You can also find more guards on rubygems by {searching for "guard-"}[https://ru
 - {guard-gimli}[https://github.com/guard/guard-gimli] by {Fredrik Wallgren}[https://github.com/walle]
 - {guard-git-scribe}[https://github.com/guard/guard-git-scribe] by {Jason Morrison}[https://github.com/jasonm]
 - {guard-haml}[https://github.com/guard/guard-haml] by {Immanuel Häussermann}[https://github.com/manufaktor]
+- {guard-haskell}[https://github.com/supki/guard-haskell] by {Matvey B. Aksenov}[https://github.com/supki]
 - {guard-hydra}[https://github.com/guard/guard-hydra] by {John Bintz}[https://github.com/johnbintz]
 - {guard-jammit}[https://github.com/guard/guard-jammit] by {Pelle Braendgaard}[https://github.com/pelle]
 - {guard-jasmine}[https://github.com/guard/guard-jasmine] by {Michael Kessler}[https://github.com/netzpirat]
