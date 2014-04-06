@@ -48,7 +48,7 @@ You can also find more guards on rubygems by {searching for "guard-"}[https://ru
 - {guard-nanoc}[https://github.com/guard/guard-nanoc] by {Denis Defreyne}[https://github.com/ddfreyne]
 - {guard-passenger}[https://github.com/guard/guard-passenger] by {Fabio Kuhn}[https://github.com/mordaroso]
 - {guard-phantomjs}[https://github.com/guard/guard-phantomjs] by {Klaus Hartl}[https://github.com/carhartl]
-- {guard-phpunit}[https://github.com/Maher4Ever/guard-phpunit] by {Maher Sallam}[https://github.com/Maher4Ever]
+- {guard-phpunit2}[https://github.com/ramon/guard-phpunit] by {Ramon Soares}[https://github.com/ramon]
 - {guard-pow}[https://github.com/guard/guard-pow] by {Thibaud Guillaume-Gentil}[https://github.com/thibaudgg]
 - {guard-premailer}[https://github.com/guard/guard-premailer] by {Immanuel Häussermann}[https://github.com/manufaktor]
 - {guard-process}[https://github.com/guard/guard-process] by {Mark Kremer}[https://github.com/mkremer]
