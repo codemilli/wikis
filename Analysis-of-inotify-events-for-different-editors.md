@@ -45,7 +45,7 @@ Watches established.
 
 Note how there's only 1 event actually on the directory: MOVED_TO.
 
-(This is because Sublime calls rename() without deleting the file, which makes Guard think it's a new file, which cases an run_on_additions plugin event, which many guard plugins don't track).
+(This is because Sublime calls rename() without deleting the file, which makes Guard think it's a new file, which calls the run_on_additions plugin method - a method many guard plugins don't implement).
 
 
 ## Vim
