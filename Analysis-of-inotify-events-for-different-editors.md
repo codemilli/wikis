@@ -1,12 +1,14 @@
-This page collects information about the fired [inotify](http://en.wikipedia.org/wiki/Inotify) events that different Linux editors fires on file modification. The events are collected using  [inotifywatch](http://linux.die.net/man/1/inotifywatch).
+This page collects information about the fired [inotify](http://en.wikipedia.org/wiki/Inotify) events that different Linux editors fires on file modification. The events are collected using  [inotifywait](http://linux.die.net/man/1/inotifywait).
 
 Steps to add an event analysis of your editor: 
 
 1. Open the file
-2. Launch inotifywatch
+2. Launch `inotifywait -m .` in the **directory** containing the file
 3. Change the file content
 4. Save the file
-5. Quit inotifywatch
+5. Quit inotifywait
+
+**IMPORTANT NOTE**: Remember to watch the **directory** containing the file, not the file itself!
 
 # Results
 
@@ -25,13 +27,36 @@ To disable RubyMine's auto-save/synchronization feature: `File > Settings > Gene
 
 ## Sublime Text 3 on Linux
 
-    total  attrib  delete_self  filename
-    3      1       1            coffee/script.coffee
+Given a file coffee/script.coffee and watching the coffee dir:
+
+```
+% inotifywait -m coffee
+Setting up watches.
+Watches established.
+./ CREATE .sublc0f.tmp
+./ OPEN .sublc0f.tmp
+./ ATTRIB .sublc0f.tmp
+./ MODIFY .sublc0f.tmp
+./ CLOSE_WRITE,CLOSE .sublc0f.tmp
+./ ATTRIB .sublc0f.tmp
+./ MOVED_FROM .sublc0f.tmp
+./ MOVED_TO script.coffee
+```
+
+Note how there's only 1 event actually on the directory: MOVED_TO.
+
+(This is because Sublime calls rename() without deleting the file, which makes Guard think it's a new file, which cases an run_on_additions plugin event, which many guard plugins don't track).
+
 
 ## Vim
 
     total  attrib  move_self  delete_self  filename
     4      1       1          1            coffee/script.coffee
+
+### Details:
+
+The events Vim generates during saving actually depends on options, e.g. backup/backupdir/patchmode/backupcopy/writebackup/backupskip
+
 
 ## Gedit
 
