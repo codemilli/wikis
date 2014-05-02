@@ -47,15 +47,38 @@ Note how there's only 1 event actually on the directory: MOVED_TO.
 
 (This is because Sublime calls rename() without deleting the file, which makes Guard think it's a new file, which calls the run_on_additions plugin method - a method many guard plugins don't implement).
 
+## Kate
+
+Details:
+
+1. Kate creates a backup file, e.g. `foo.rb` -> `foo.rb~` (suffix is configurable)
+
+2. Kate uses QTemporaryFile with a template "XXXXXX.new", which means e.g. `foo.rb` -> (`qtemporaryfile.cpp`)
+
+3. Kate uses "overwrite" technique to allow saving file in read-only directories: `foo.rbo53241.new` -> `foo.rb` (no delete happens)
+
+
+E.g.:
+
+
+
+    [:delete]: users_controller_spec.rb~
+    [:moved_to, :move]: users_controller_spec.rb~
+    [:attrib]: users_controller_spec.rb~
+    [:create]: users_controller_spec.rbo22583.new
+    [:attrib]: users_controller_spec.rbo22583.new
+    [:close_write, :close]: users_controller_spec.rbo22583.new
+    [:close_write, :close]: users_controller_spec.rbo22583.new
+    [:moved_from, :move]: users_controller_spec.rbo22583.new
+    [:moved_to, :move]: users_controller_spec.rb
+
 
 ## Vim
 
     total  attrib  move_self  delete_self  filename
     4      1       1          1            coffee/script.coffee
 
-### Details:
-
-The events Vim generates during saving actually depends on options, e.g. backup/backupdir/patchmode/backupcopy/writebackup/backupskip
+Details: The events Vim generates during saving actually depends on options, e.g. backup/backupdir/patchmode/backupcopy/writebackup/backupskip
 
 
 ## Gedit
