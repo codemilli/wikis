@@ -53,7 +53,7 @@ Details:
 
 1. Kate creates a backup file, e.g. `foo.rb` -> `foo.rb~` (suffix is configurable)
 
-2. Kate uses QTemporaryFile with a template "XXXXXX.new", which means e.g. `foo.rb` -> (`qtemporaryfile.cpp`)
+2. Kate uses QTemporaryFile with a template "XXXXXX.new", which means e.g. `foo.rb` -> `foo.rbo53241.new` [(see: qtemporaryfile.cpp)](https://qt.gitorious.org/qt/qt/source/cfa01206e38d120c0ddb17aec7358aadff30b6f5:src/corelib/io/qtemporaryfile.cpp)
 
 3. Kate uses "overwrite" technique to allow saving file in read-only directories: `foo.rbo53241.new` -> `foo.rb` (no delete happens)
 
