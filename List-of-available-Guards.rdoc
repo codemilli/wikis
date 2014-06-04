@@ -90,7 +90,7 @@ You can also find more guards on rubygems by {searching for "guard-"}[https://ru
 - {guard-uglify}[https://github.com/guard/guard-uglify] by {Aaron Cruz}[https://github.com/pferdefleisch]
 - {guard-unicorn}[https://github.com/xhr/guard-unicorn] by {Andrei Maxim}[https://github.com/xhr]
 - {guard-webrick}[https://github.com/guard/guard-webrick] by {Fletcher Nichol}[https://github.com/fnichol]
-- {guard-yard}[https://github.com/guard/guard-yard] by {Pan Thomakos}[https://github.com/panthomakos]
+- {guard-yard}[https://github.com/panthomakos/guard-yard] by {Pan Thomakos}[https://github.com/panthomakos]
 - {guard-yeti}[https://github.com/hojberg/guard-yeti] by {Simon Højberg}[https://github.com/hojberg]
 - {guard-zen}[https://github.com/guard/guard-zen] by {azazelo}[https://github.com/azazelo]
 - {guard-zeus}[https://github.com/qnm/guard-zeus] by {qnm}[https://github.com/qnm/]
