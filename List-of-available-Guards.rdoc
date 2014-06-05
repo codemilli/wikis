@@ -5,6 +5,7 @@ You can also find more guards on rubygems by {searching for "guard-"}[https://ru
 - {guard-bower}[https://github.com/mickey/guard-bower] by {Michael Bensoussan}[https://github.com/mickey]
 - {guard-brakeman}[https://github.com/guard/guard-brakeman] by {Neil Matatall}[https://github.com/oreoshake]
 - {guard-bundler}[https://github.com/guard/guard-bundler] by {Yann Lugrin}[https://github.com/yannlugrin]
+- {guard-bundler-audit}[https://github.com/christianhellsten/guard-bundler-audit] by {Christian Hellsten}[https://github.com/christianhellsten]
 - {guard-calabash-ios}[https://github.com/AlexDenisov/guard-calabash-ios] by {Alex Denisov}[https://github.com/AlexDenisov]
 - {guard-chef}[https://github.com/guard/guard-chef] by {James OKelly}[https://github.com/dreamr]
 - {guard-coffeedripper}[https://github.com/guard/guard-coffeedripper] by {amacou}[https://github.com/amacou]
