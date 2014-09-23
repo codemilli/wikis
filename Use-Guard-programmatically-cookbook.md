@@ -53,5 +53,12 @@ Guard.run_all
 
 You can start guard togheter with the rails application, just create a `config/initializers/guard.rb` with something like:
 
-    Guard.guards 'sass'
-    Guard.start :no_interactions => true
+```
+fork do
+  if __FILE__ == '(irb)'
+  end
+  
+  Guard.guards 'sass'
+  Guard.start :no_interactions => true
+end
+```
