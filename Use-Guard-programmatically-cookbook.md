@@ -48,3 +48,10 @@ Guard.setup
 # Finally run all Guards
 Guard.run_all
 ```
+
+### Starting Guard within your application
+
+You can start guard togheter with the rails application, just create a `config/initializers/guard.rb` with something like:
+
+    Guard.guards 'sass'
+    Guard.start :no_interactions => true
