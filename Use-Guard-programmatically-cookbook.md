@@ -53,7 +53,7 @@ Guard.run_all
 
 You can start guard togheter with the rails application, just create a `config/initializers/guard.rb` with something like:
 
-```
+```ruby
 fork do
   if __FILE__ == '(irb)'
   end
