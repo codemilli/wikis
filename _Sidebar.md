@@ -16,7 +16,7 @@
 
 * [[Shared configurations]]
 * [[Hooks and callbacks]]
-* [[Correctly using the watchdir option]]
+* [[Correctly using the --watchdir option]]
 
 **Cookbooks**
 
