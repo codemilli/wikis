@@ -51,6 +51,31 @@ end
 
 For the default **"_begin"** hooks, the `*args` that are passed to `#call` are the matched files that Guard has detected changes on. For the default **"_end"** hooks, `*args` are the results of the Guard action that was executed.
 
+## NOTES / Caveats
+
+Currently, callbacks are fired only if the given plugin implements the related method, e.g. `Guard-Rspec` doesn't currently implement `stop`, so callbacks for `:stop_begin` and `:stop_end` won't be called. The quick workaround is to add these methods through monkey-patching, but of course, caution is advised when doing so:
+
+```ruby
+# Required for instance_methods to have actual methods
+require 'guard/rspec'
+
+module ::Guard
+  class RSpec < Plugin
+    # Always check in case a future version of the plugin
+    # implements the method
+    unless instance_methods.include?(:stop)
+      def stop; end
+    end
+  end
+end
+
+guard 'rspec' do
+  watch(...) { ... }
+  callback(Timer.new, [:stop_begin, :stop_end]) # now works
+end
+```
+
+
 ## Developers
 
 If you are developing a Guard and want end users or other gems to be able to hook into certain parts of your code, then you can create a custom hook with the `#hook` method. You define the hook's name with either a symbol or string. If passed a symbol, the hook name will be the name of the calling method with the symbol appended. If passed a string, the hook name will be the string.
