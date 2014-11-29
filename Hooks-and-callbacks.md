@@ -71,7 +71,7 @@ end
 
 guard 'rspec' do
   watch(...) { ... }
-  callback(Timer.new, [:stop_begin, :stop_end]) # now works
+  callback(Foo.action, [:stop_begin, :stop_end]) # now works
 end
 ```
 
