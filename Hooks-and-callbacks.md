@@ -82,7 +82,7 @@ If you are developing a Guard and want end users or other gems to be able to hoo
 
 ```ruby
 module Guard
-  class MyGuard < Guard
+  class MyGuard < Plugin
     def start
       # some code
       hook :custom_hook_1  # this hook's name will be :start_custom_hook_l
