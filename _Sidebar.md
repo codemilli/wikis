@@ -12,6 +12,10 @@
 * [[Guardfile examples]]
 * [Run Guard within RubyMine](http://stackoverflow.com/questions/11996124/is-it-impossible-to-use-guard-with-rubymine/12000765#12000765)
 
+**Troubleshooting **
+
+* [[Understanding Guard]]
+
 **Advanced use of Guard**
 
 * [[Shared configurations]]
