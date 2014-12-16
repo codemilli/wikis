@@ -1,4 +1,4 @@
-## Guard no longer reevaluates files
+## Problem: Guard no longer reevaluates files
 
 ### The Workaround
 
@@ -8,7 +8,9 @@ Run Guard with this shell one-liner:
 while bundle exec guard; do echo "Restarting guard..."; done
 ```
 
-And now, every time you change the file, Guard exists and gets restarted by the shell script. 100% bullet proof, as opposed to how reevaluating was implemented up till now.
+And now, every time you change the file, Guard exits and gets restarted by the shell script. 
+
+100% bullet proof, as opposed to how reevaluating was implemented up till now.
 
 ### Alternative workaround
 
