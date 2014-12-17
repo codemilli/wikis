@@ -1,8 +1,9 @@
 This wiki and the Guard [README](https://github.com/guard/guard#readme) document contains a
 lot of information, please take your time and read these instructions carefully.
 
-We provide a [CHANGELOG](https://github.com/guard/guard/blob/master/CHANGELOG.md) that
-provides details about every Guard release.
+If you run into any trouble, you may start by [understanding how Guard works](https://github.com/guard/guard/wiki/Understanding-Guard).
+
+We provide [detailed changes for each Guard release](https://github.com/guard/guard/releases).
 
 Be sure to read the [CONTRIBUTING](https://github.com/guard/guard/blob/master/CONTRIBUTING.md)
 guidelines before reporting a new Guard issue or open a pull request.
