@@ -58,3 +58,65 @@ For example, to get help for the `start` task, simply run:
 ```bash
 $ bundle exec guard help start
 ```
+
+### List
+
+You can list the available plugins with the `list` task:
+
+```bash
+$ bundle exec guard list
++----------+--------------+
+| Plugin   | In Guardfile |
++----------+--------------+
+| Compass  | ✘            |
+| Cucumber | ✘            |
+| Jammit   | ✘            |
+| Ronn     | ✔            |
+| Rspec    | ✔            |
+| Spork    | ✘            |
+| Yard     | ✘            |
++----------+--------------+
+```
+
+### Show
+
+You can show the structure of the groups and their plugins with the `show` task:
+
+```bash
+$ bundle exec guard show
++---------+--------+-----------------+----------------------------+
+| Group   | Plugin | Option          | Value                      |
++---------+--------+-----------------+----------------------------+
+| Specs   | Rspec  | all_after_pass  | true                       |
+|         |        | all_on_start    | true                       |
+|         |        | cli             | "--fail-fast --format doc" |
+|         |        | focus_on_failed | false                      |
+|         |        | keep_failed     | true                       |
+|         |        | run_all         | {}                         |
+|         |        | spec_paths      | ["spec"]                   |
++---------+--------+-----------------+----------------------------+
+| Docs    | Ronn   |                 |                            |
++---------+--------+-----------------+----------------------------+
+```
+
+This shows the internal structure of the evaluated `Guardfile` or `.Guardfile`, with the `.guard.rb` file. You can
+read more about these files in the [shared configuration section](https://github.com/guard/guard/wiki/Shared-configurations).
+
+### Notifiers
+
+You can show the notifiers, their availablity and options with the `notifier` task:
+
+```bash
+$ bundle exec guard notifiers
++-------------------+-----------+------+------------------------+-------------------+
+| Name              | Available | Used | Option                 | Value             |
++-------------------+-----------+------+------------------------+-------------------+
+| gntp              | ✔         | ✘    | sticky                 | false             |
++-------------------+-----------+------+------------------------+-------------------+
+| growl             | ✘         | ✘    | sticky                 | false             |
+|                   |           |      | priority               | 0                 |
++-------------------+-----------+------+------------------------+-------------------+
+```
+
+This shows if a notifier is available on the current system, if it's being used and the
+current options (which reflects your custom options merged into the default options).
