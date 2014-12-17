@@ -13,6 +13,7 @@
 * [[List of available Guards]]
 * [[Guardfile examples]]
 * [Run Guard within RubyMine](http://stackoverflow.com/questions/11996124/is-it-impossible-to-use-guard-with-rubymine/12000765#12000765)
+* [[Guardfile-DSL / Configuring-Guard|Guardfile-DSL---Configuring-Guard]]
 * [[Interacting with Guard]]
 * [[Guard Signals|Interacting with Guard#guard-signals]]
 
