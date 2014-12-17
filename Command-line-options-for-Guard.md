@@ -156,7 +156,29 @@ $ bundle exec guard start -y 1
 $ bundle exec guard start --wait-for-delay 1
 ```
 
+#### `-T` option
 
+You can show the structure of the groups and their plugins with the `show` task:
+
+```bash
+$ bundle exec guard show
++---------+--------+-----------------+----------------------------+
+| Group   | Plugin | Option          | Value                      |
++---------+--------+-----------------+----------------------------+
+| Specs   | Rspec  | all_after_pass  | true                       |
+|         |        | all_on_start    | true                       |
+|         |        | cli             | "--fail-fast --format doc" |
+|         |        | focus_on_failed | false                      |
+|         |        | keep_failed     | true                       |
+|         |        | run_all         | {}                         |
+|         |        | spec_paths      | ["spec"]                   |
++---------+--------+-----------------+----------------------------+
+| Docs    | Ronn   |                 |                            |
++---------+--------+-----------------+----------------------------+
+```
+
+This shows the internal structure of the evaluated `Guardfile` or `.Guardfile`, with the `.guard.rb` file. You can
+read more about these files in the [shared configuration section](https://github.com/guard/guard/wiki/Shared-configurations).
 #### `-b`/`--bare` option
 
 You can generate an empty `Guardfile` by running the `init` task with the bare
