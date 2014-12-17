@@ -8,7 +8,7 @@
 
 **Getting Started**
 
-* [[List of Guard commands]]
+* [[List of Guard Commands]]
 * [[Command Line Options for Guard]]
 * [[List of available Guards]]
 * [[Guardfile examples]]
