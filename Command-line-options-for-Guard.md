@@ -5,6 +5,7 @@ You can use additional command line options to enhance Guard. These can be appen
 $ bundle exec guard
 ```
 
+
 #### `-c`/`--clear` option
 
 The shell can be cleared after each change:
@@ -21,6 +22,7 @@ statement (described below) in you `~/.guardrc` instead:
 clearing :on
 ```
 
+
 #### `-n`/`--notify` option
 
 System notifications can be disabled:
@@ -31,6 +33,7 @@ $ bundle exec guard -n f # shortcut
 ```
 
 Notifications can also be disabled globally by setting a `GUARD_NOTIFY` environment variable to `false`.
+
 
 #### `-g`/`--group` option
 
@@ -43,6 +46,7 @@ $ bundle exec guard -g group_name another_group_name # shortcut
 
 See the Guardfile DSL below for creating groups.
 
+
 #### `-P`/`--plugin` option
 
 Scope Guard to certain plugins on start:
@@ -51,6 +55,7 @@ Scope Guard to certain plugins on start:
 $ bundle exec guard --plugin plugin_name another_plugin_name
 $ bundle exec guard -P plugin_name another_plugin_name # shortcut
 ```
+
 
 #### `-d`/`--debug` option
 
@@ -61,6 +66,7 @@ developers) with:
 $ bundle exec guard --debug
 $ bundle exec guard -d # shortcut
 ```
+
 
 #### `-w`/`--watchdir` option
 
@@ -93,6 +99,7 @@ $ bundle exec guard -G ~/.your_global_guardfile # shortcut
 ```
 *TIP: set `BUNDLER_GEMFILE` environment variable to point to your Gemfile if it isn't in the current directory or the current Gemfile doesn't include all your favorite plugins*
 
+
 #### `-i`/`--no-interactions` option
 
 Turn off completely any Guard terminal interactions with:
@@ -102,6 +109,7 @@ $ bundle exec guard start -i
 $ bundle exec guard start --no-interactions
 ```
 
+
 #### `-B`/`--no-bundler-warning` option
 
 Skip Bundler warning when a Gemfile exists in the project directory but Guard is not run with Bundler.
@@ -110,6 +118,7 @@ Skip Bundler warning when a Gemfile exists in the project directory but Guard is
 $ bundle exec guard start -B
 $ bundle exec guard start --no-bundler-warning
 ```
+
 
 #### `-l`/`--latency` option
 
@@ -136,6 +145,7 @@ $ bundle exec guard start -p
 $ bundle exec guard start --force-polling
 ```
 
+
 #### `-y`/`--wait-for-delay` option
 
 Overwrite Listen's default wait_for_delay, useful for kate-like editors through
@@ -145,6 +155,18 @@ ssh access or when guard is annoyingly running tasks multiple times.
 $ bundle exec guard start -y 1
 $ bundle exec guard start --wait-for-delay 1
 ```
+
+
+#### `-b`/`--bare` option
+
+You can generate an empty `Guardfile` by running the `init` task with the bare
+option:
+
+```bash
+$ bundle exec guard init --bare
+$ bundle exec guard init -b # shortcut
+```
+
 
 ### Running Guard in a VM
 
