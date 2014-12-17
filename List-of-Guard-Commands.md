@@ -42,7 +42,13 @@ $ bundle exec guard init <template-name>
 **Note**: If you already have a `Guardfile` in the current directory, the `init` task can be used
 to append a supplied template from an installed plugin to your existing `Guardfile`.
 
+You also can generate an empty `Guardfile` by running the `init` task with the bare 
+option: (`-b`/`--bare`)
 
+```bash
+$ bundle exec guard init --bare
+$ bundle exec guard init -b # shortcut
+```
 
 ### Help
 
