@@ -1,6 +1,6 @@
 This page collects information about the fired [inotify](http://en.wikipedia.org/wiki/Inotify) events that different Linux editors fires on file modification. The events are collected using  [inotifywait](http://linux.die.net/man/1/inotifywait).
 
-Steps to add an event analysis of your editor: 
+Steps to add an event analysis of your editor:
 
 1. Open the file
 2. Launch `inotifywait -m .` in the **directory** containing the file
@@ -119,8 +119,28 @@ Details: The events Vim generates during saving actually depends on options, e.g
 ## Redcar 0.12
     total  modify  close_write  open  filename
     4      2       1            1     coffee/script.coffee
-    
+
 ## emacs 24
 
     total  access  modify  close_write  close_nowrite  open  filename
     9      1       2       1            2              3     my/fine/file
+
+## sed
+
+    Sed uses the "overwrite with move" trick.
+
+    from running: `sed -e 's/a/b/' -i index.html`
+
+    ./ OPEN index.html
+    ./ CREATE sedBF20nx
+    ./ OPEN sedBF20nx
+    ./ MODIFY sedBF20nx
+    ./ MODIFY sedBF20nx
+    ./ MODIFY sedBF20nx
+    ./ MODIFY sedBF20nx
+    ./ ATTRIB sedBF20nx
+    ./ ATTRIB sedBF20nx
+    ./ CLOSE_NOWRITE,CLOSE index.html
+    ./ CLOSE_WRITE,CLOSE sedBF20nx
+    ./ MOVED_FROM sedBF20nx
+    ./ MOVED_TO index.html
