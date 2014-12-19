@@ -162,7 +162,7 @@ end
 
 This is a bit confusing, because while it works as expected, it's not how it "should" work.
 
-The Guard::Shell plugin just the stuff returned by the block.
+The Guard::Shell plugin just prints the stuff returned by the block.
 
 The "Guard way" of doing things would be to either have something like:
 
@@ -180,7 +180,7 @@ end
 or:
 
 ```ruby
-# this non-existing plugin would e.g. pass this to a system() call
+# this non-existing plugin would e.g. pass the string to a system() call
 guard :execute, any_return: true do
   watch /(.*)/ do |m|
     'echo #{m[0]}'
