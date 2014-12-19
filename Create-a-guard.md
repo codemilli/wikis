@@ -1,4 +1,8 @@
-Creating a new Guard is very easy. For example, to create a Guard named `yoyo` just create a new gem by running `bundle gem guard-yoyo`. Please make your Guard start with `guard-`, so that it can easily be found on RubyGems.
+Creating a new Guard is very easy.
+
+For example, to create a Guard named `yoyo` just create a new gem by running `bundle gem guard-yoyo`.
+
+NOTE: Please make your Guard start with `guard-`, so that it can easily be found on RubyGems.
 
 ```bash
 $ bundle gem guard-yoyo
@@ -24,6 +28,14 @@ test/ # or spec/
 README.md
 ```
 
+In your gemspec, add a runtime dependency on the guard-compat plugin:
+
+In guard-yoyo.gemspec:
+```
+spec.add_dependency 'guard-compat, '~> 1.1'
+```
+
+
 Your Guard main class `Guard::Yoyo` in `lib/guard/yoyo.rb` must inherit from
 [Guard::Plugin](http://rubydoc.info/github/guard/guard/master/Guard/Plugin) and should overwrite at least the
 `#run_on_change` task methods.
@@ -31,8 +43,7 @@ Your Guard main class `Guard::Yoyo` in `lib/guard/yoyo.rb` must inherit from
 Here is an example scaffold for `lib/guard/yoyo.rb`:
 
 ```ruby
-require 'guard'
-require 'guard/plugin'
+require 'guard/compat/plugin'
 
 module Guard
   class Yoyo < Plugin
@@ -83,14 +94,6 @@ module Guard
     def run_all
     end
 
-    # Default behaviour on file(s) changes that the Guard plugin watches.
-    # @param [Array<String>] paths the changes files or paths
-    # @raise [:task_has_failed] when run_on_change has failed
-    # @return [Object] the task result
-    #
-    def run_on_changes(paths)
-    end
-
     # Called on file(s) additions that the Guard plugin watches.
     #
     # @param [Array<String>] paths the changes files or paths
@@ -130,14 +133,14 @@ for more concrete example and inspiration.
 Alternatively, a new Guard can be added inline to a `Guardfile` with this basic structure:
 
 ```ruby
-require 'guard/plugin'
+require 'guard/compat/plugin'
 
 module ::Guard
-  class InlineGuard < ::Guard::Plugin
+  class InlineGuard < Plugin
     def run_all
     end
 
-    def run_on_changes(paths)
+    def run_on_modifications(paths)
     end
   end
 end
