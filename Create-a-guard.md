@@ -37,8 +37,7 @@ spec.add_dependency 'guard-compat, '~> 1.1'
 
 
 Your Guard main class `Guard::Yoyo` in `lib/guard/yoyo.rb` must inherit from
-[Guard::Plugin](http://rubydoc.info/github/guard/guard/master/Guard/Plugin) and should overwrite at least the
-`#run_on_change` task methods.
+[Guard::Plugin](http://rubydoc.info/github/guard/guard/master/Guard/Plugin)
 
 Here is an example scaffold for `lib/guard/yoyo.rb`:
 
