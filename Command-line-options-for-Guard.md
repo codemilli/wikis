@@ -70,7 +70,7 @@ $ bundle exec guard -d # shortcut
 
 #### `-w`/`--watchdir` option
 
-Guard can watch any number of directories instead of only the current directory:
+Guard by default watches the current directory recursively, but you can tell Guard to watch only the directories you want:
 
 ```bash
 $ bundle exec guard --watchdir source/files # watch a subdirectory of your project
