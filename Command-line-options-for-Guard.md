@@ -1,9 +1,31 @@
-
 You can use additional command line options to enhance Guard. These can be appended to the command line:
 
 ```bash
-$ bundle exec guard
+$ bundle exec guard <option>
 ```
+
+### UI options
+
+* [-c / --clear option](#-c--clear-option) - to clear the screen between tasks
+* [-n / --notify option](#-n--notify-option) - to enable/disable popup notification
+* [-T option](#-t-option) - to show Guardfile config
+* [-i / --no-interactions option](#-i--no-interactions-option) - to enable/disable Pry console
+* [-d / --debug option](#-d--debug-option) - to enable debug mode
+* [-B / --no-bundler-warning option](#-b--no-bundler-warning-option) - to prevent bundler warning from being shown
+
+### Config options
+
+* [-g / --group option](#-g--group-option) - to activate only specified groups
+* [-P / --plugin option](#-p--plugin-option) - to activate only specified plugins
+* [-w / --watchdir option](#-w--watchdir-option) - to watch only given directories
+* [-G / --guardfile option](#-g--guardfile-option) - to use a different Guardfile
+
+### Listen Options
+
+* [-l / --latency option](#-l--latency-option) - to how long until Listen detects changes
+* [-p / --force-polling option](#-p--force-polling-option) - to force Listen to use polling mode
+* [-y / --wait-for-delay option](#-y--wait-for-delay-option) - how long Listen can wait until disk activity dies down
+* [-o / --listen-on option](#-o--listen-on-option) - to listen for events send over TCP
 
 
 #### `-c`/`--clear` option
