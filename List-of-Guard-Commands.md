@@ -12,11 +12,11 @@ $ bundle exec guard <command>
 
 ### Commands
 
-* [Init](#Init)
-* [Help](#Help)
-* [List](#List)
-* [Show](#Show)
-* [Notifiers](#Notifiers)
+* [Init](#init) - setup a new Guardfile with default plugin config templates
+* [Help](#help) - show detailed help for other commands
+* [List](#list) - show available and used plugins
+* [Show](#show) - show configuration options for each used plugin
+* [Notifiers](#notifiers) - show list of available notifiers and which ones are used
 
 
 ### Init
