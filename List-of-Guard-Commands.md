@@ -10,6 +10,15 @@ Additional commands can be appended to the end of the Guard command.
 $ bundle exec guard <command>
 ```
 
+### Commands
+
+* [Init](#Init)
+* [Help](#Help)
+* [List](#List)
+* [Show](#Show)
+* [Notifiers](#Notifiers)
+
+
 ### Init
 You can generate a Guardfile and have all installed plugins be automatically added into
 it by running the `init` task without any option:
