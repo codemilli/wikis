@@ -1,6 +1,20 @@
-
 The Guardfile DSL is evaluated as plain Ruby, so you can use normal Ruby code in your `Guardfile`.
 Guard itself provides the following DSL methods that can be used for configuration:
+
+### Contents:
+
+* [guard](#guard) - to define and configure plugins
+* [watch](#watch) - to setup patterns matching relevant files
+* [group](#group) - to organize plugins into groups
+* [scope](#scope) - to set the default groups or plugins to activate
+* [directories](#directories) - to tell Guard which directories to watch
+* [clearing](#clearing) - whether Guard should clear the screen
+* [notification](#notification) - whether Guard should use notifications (popups, etc.)
+* [interactor](#interactor) - whether guard should start the Pry console
+* [callback](#callback) - to setup extra actions inside hooks for a plugin
+* [ignore](#ignore) - to ignore changes to irrelevant files
+* [filter](#filter) - to ignore changes to irrelevant files
+* [logger](#logger) - to enable/configure the logger
 
 ### guard
 
