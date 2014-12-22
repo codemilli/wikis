@@ -43,7 +43,7 @@ Let's dive into debugging, because *this* will save you *tons* of hours:
 
 ### Is the file passed to the plugin?
 
-1. run guard with the `-d` parameter (`bundle exec guard -d`)
+First, run guard with the `-d` parameter (`bundle exec guard -d`)
 
 Now, if you change the file while running Guard, you should see:
 
@@ -55,6 +55,7 @@ Now, if you change the file while running Guard, you should see:
 ```
 
 This says a few things:
+
 1. That Guard detected *relevant* changes (meaning - one of the plugins matched the changes)
 2. That *some* change matching the `watch` statement was passed to the plugin
 3. That the change was a file `modification`
