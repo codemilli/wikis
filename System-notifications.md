@@ -67,6 +67,11 @@ If you are unable to build the `libnotify` gem on your system, Guard
 also has a built in notifier - `notifysend` - that shells out to the
 `notify-send` utility that comes with `libnotify-bin`.
 
+Please note that NotifyOSD, which is the default notification UI on
+Ubuntu and possibly other systems,
+[ignores the timeout parameter](https://bugs.launchpad.net/ubuntu/+source/notify-osd/+bug/390508)
+for libnotify.
+
 ## Notifu
 
 * Runs on Windows
