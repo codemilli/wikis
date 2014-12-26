@@ -5,10 +5,12 @@
 Run Guard with this shell one-liner:
 
 ```bash
-while bundle exec guard; do echo "Restarting guard..."; done
+while bundle exec guard; echo "Restarting guard..."; do echo; done
 ```
 
-And now, every time you change the file, Guard exits and gets restarted by the shell script. 
+And now, every time you change the file, Guard exits and gets restarted by the shell script. The extra `echo` in the while condition is needed as otherwise Guard exits with a non-zero status, breaking the loop.
+
+**Note**: Ctrl-D will no longer close Guard. You can use Ctrl-C to exit Guard.
 
 100% bullet proof, as opposed to how reevaluating was implemented up till now.
 
