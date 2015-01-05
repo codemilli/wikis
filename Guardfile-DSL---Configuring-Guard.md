@@ -1,4 +1,5 @@
-The Guardfile DSL is evaluated as plain Ruby, so you can use normal Ruby code in your `Guardfile`.
+The Guardfile DSL is evaluated as plain Ruby, so you can use normal Ruby code in your `Guardfile` (and your `~/.guard.rb` file which is evaluated first if it exists).  
+
 Guard itself provides the following DSL methods that can be used for configuration:
 
 ### Contents:
