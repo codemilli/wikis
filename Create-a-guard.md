@@ -32,7 +32,7 @@ In your gemspec, add a runtime dependency on the guard-compat plugin:
 
 In guard-yoyo.gemspec:
 ```
-spec.add_dependency 'guard-compat, '~> 1.1'
+spec.add_dependency 'guard-compat', '~> 1.1'
 ```
 
 
