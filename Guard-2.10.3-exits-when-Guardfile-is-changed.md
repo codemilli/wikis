@@ -1,6 +1,6 @@
 ## Problem: Guard no longer reevaluates files
 
-### The Workaround
+### Option 1: The Quick-And-Dirty Workaround
 
 Run Guard with this shell one-liner:
 
@@ -14,17 +14,31 @@ And now, every time you change the file, Guard exits and gets restarted by the s
 
 100% bullet proof, as opposed to how reevaluating was implemented up till now.
 
-### Alternative workaround
+### Option 2: Nicer Workaround (for projects)
 
-You may prefer to simply binstub your guard: `bundle binstub guard` and edit the created `bin/guard` so it loops there (so you don't need a shell script).
+Just like you create binstubs, you can have a `bin/guard` file that reloads automatically.
+
+[Just copy this gist](https://gist.github.com/e2/b39b406d0f3309261558) into `bin/guard`.
 
 ### Problems
 
 If guard isn't responding to changes to your Guardfile - you may need to move you `Guardfile` to another directory, and symlink it.
+
+Why so?
+
+Since the MacOS driver pretty much can watch only recursively, you can either:
+
+1. watch *everything*
+2. or watch given directories (and their contents, recursively), but without the top directory
+
+Since option 1 is bad for big projects, the solution is using  the `directories` statement. But if you can't then watch the top directory, you can't watch the `Guardfile`, the `Gemfile`, etc.
+
+So the solution to this new problem (can't use `directories` *and* watch `Guardfile` at the same time), is to put `Guardfile` in a subdir (e.g. `config`), watch *that* directory, and symlink it back.
+
 For more info see: [[Optimizing for large projects]]
 
 ### Background
 
-Supporting the feature is a maintenance nightmare, because it's kind of like implementing fork() in pure Ruby in an app that heavily relies on global state. Also, since watching whole projects doesn't make sense - using the `directories` statement means the Guardfile can't be watched anyway (unless it's symlinked) and since the Guardfile isn't constantly changed and the workaround is trivial - this isn't a show-stopper by any means. 
+Supporting the feature was a maintenance nightmare (kind of like implementing fork() in pure Ruby in an app that heavily relies on global state - and there was always something broken). 
 
-If you strongly disagree - feel free to comment on the existing related issue(s).
+So sorry for removing this feature - it kept the project from making any progress and we decided that with the above workarounds, it wasn't a show-stopper. But the gain was massive...
