@@ -1,6 +1,12 @@
 ## Problem: Guard no longer reevaluates files
 
-### Option 1: The Quick-And-Dirty Workaround
+### Option 1: Nice/Better/Recommended Workaround (for projects)
+
+Just like you create binstubs, you can have a `bin/guard` file that reloads automatically.
+
+[Just download this gist](https://gist.github.com/e2/b39b406d0f3309261558) as `bin/guard`.
+
+### Option 2: The Quick-And-Dirty Workaround
 
 Run Guard with this shell one-liner:
 
@@ -13,12 +19,6 @@ And now, every time you change the file, Guard exits and gets restarted by the s
 **Note**: Ctrl-D will no longer close Guard. You can use Ctrl-C to exit Guard.
 
 100% bullet proof, as opposed to how reevaluating was implemented up till now.
-
-### Option 2: Nicer Workaround (for projects)
-
-Just like you create binstubs, you can have a `bin/guard` file that reloads automatically.
-
-[Just copy this gist](https://gist.github.com/e2/b39b406d0f3309261558) into `bin/guard`.
 
 ### Problems
 
