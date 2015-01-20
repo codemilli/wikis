@@ -219,6 +219,8 @@ The this clearing behavior can be set to `:on` or `:off`:
 clearing :on
 ```
 
+*NOTE: since clearing is more of a user setting, it's best to have each team member set this in their own `~/.guard.rb` file (instead of the project `Guardfile`).*
+
 ### notification
 
 If you don't specify any notification configuration in your `Guardfile`, Guard goes through the list of available
@@ -254,6 +256,9 @@ or using the cli switch `-n`:
 ```ruby
 notification :off
 ```
+
+*NOTE: since notification is more of a user setting, it's best to have each team member set this in their own `~/.guard.rb` file (instead of the project `Guardfile`).*
+
 
 ### interactor
 
