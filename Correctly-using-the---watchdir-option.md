@@ -55,6 +55,7 @@ containing the drive.
 
 Since Guardfiles are more robust if tracked files are within the current
 directory, you should instead consider "reversing things":
+
 1. go to the directory where the watched files are
 2. use BUNDLER_GEMFILE to point back to where your Gemfile is
 3. use the -G options to point to where your Guardfile is
