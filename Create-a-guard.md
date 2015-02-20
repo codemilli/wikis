@@ -134,7 +134,7 @@ Alternatively, a new Guard can be added inline to a `Guardfile` with this basic 
 ```ruby
 require 'guard/compat/plugin'
 
-# the double-colons below are *required* for inline Guards, but not otherwise
+# the double-colons below are *required* for inline Guards!!!
 
 module ::Guard
   class InlineGuard < Plugin
