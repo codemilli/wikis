@@ -88,6 +88,7 @@ You can also find more guards on rubygems by {searching for "guard-"}[https://ru
 - {guard-stendhal}[https://github.com/guard/guard-stendhal] by {Josep Mª Bach}[https://github.com/txus]
 - {guard-test}[https://github.com/guard/guard-test] by {Rémy Coutable}[https://github.com/rymai]
 - {guard-tilt}[https://github.com/boof/guard-tilt] by {Florian Aßmann}[https://github.com/boof]
+- {guard-tishadow}[https://github.com/ijcd/guard-tishadow] by {Ian Duggan}[https://github.com/ijcd]
 - {guard-uglify}[https://github.com/guard/guard-uglify] by {Aaron Cruz}[https://github.com/pferdefleisch]
 - {guard-unicorn}[https://github.com/xhr/guard-unicorn] by {Andrei Maxim}[https://github.com/xhr]
 - {guard-webrick}[https://github.com/guard/guard-webrick] by {Fletcher Nichol}[https://github.com/fnichol]
