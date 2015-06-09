@@ -137,8 +137,16 @@ require 'guard/compat/plugin'
 # the double-colons below are *required* for inline Guards!!!
 
 module ::Guard
-  class InlineGuard < Plugin
+  class MyInlineGuard < Plugin
+
+    def initialize(options = {})
+      opts = options.dup
+      @my_option = opts.delete(:my_special_option)
+      super(opts) # important to call + avoid passing options Guard doesn't understand
+    end
+
     def run_all
+       do_something_special if @my_option
     end
 
     def run_on_modifications(paths)
