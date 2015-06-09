@@ -146,7 +146,7 @@ module ::Guard
     end
 
     def run_all
-       do_something_special if @my_option
+      do_something_special if @my_option
     end
 
     def run_on_modifications(paths)
