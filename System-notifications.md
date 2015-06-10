@@ -1,4 +1,4 @@
-You can configure Guard to notify plugin results throgh one or more channels described below. If you
+You can configure Guard to notify plugin results through one or more channels described below. If you
 do not specify a specific notification channel with the
 [notification](https://github.com/guard/guard#notification) DSL method, then Guard auto-detects all
 available channels and makes use of them.
