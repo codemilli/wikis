@@ -57,12 +57,12 @@ Since Guardfiles are more robust if tracked files are within the current
 directory, you should instead consider "reversing things":
 
 1. go to the directory where the watched files are
-2. use BUNDLER_GEMFILE to point back to where your Gemfile is
+2. use BUNDLE_GEMFILE to point back to where your Gemfile is
 3. use the -G options to point to where your Guardfile is
 
 ```
 $ cd /data/bar
-$ BUNDLER_GEMFILE=/projects/foo/Gemfile bundle exec guard -G /projects/foo/Guardfile
+$ BUNDLE_GEMFILE=/projects/foo/Gemfile bundle exec guard -G /projects/foo/Guardfile
 $ echo "changes" >> ./baz
 ```
 
