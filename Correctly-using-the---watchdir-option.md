@@ -1,6 +1,6 @@
 ### Intro
 
-The `--watchdir` option (and the `directories statement in the `Guardfile`) allow watching directories other than just the current one.
+The `--watchdir` option (and the `directories` statement in the `Guardfile`) allow watching directories other than just the current one.
 
 Guard handles paths relative to the current directory.
 
