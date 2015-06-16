@@ -104,11 +104,11 @@ $ bundle exec guard -w /fancy/project # path outside project - watch out! (see b
 *NOTE: this option is only meant for ignoring subdirectories in the CURRENT
 directory - by selecting which ones to actually track.*
 
-If your watched directories are outside the current one, or if `--watchdirs` isn't working
-as you expect, be sure to read: [Correctly using watchdirs](https://github.com/guard/guard/wiki/Correctly-using-the---watchdir-option)
+If your watched directories are outside the current one, or if `--watchdir` isn't working
+as you expect, be sure to read: [Correctly using `--watchdir`](https://github.com/guard/guard/wiki/Correctly-using-the---watchdir-option)
 
 You may find it more convenient to use the `directories` statement (described
-below) in your Guardfile
+below) in your Guardfile.
 
 
 #### `-G`/`--guardfile` option
