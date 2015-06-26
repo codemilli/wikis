@@ -38,7 +38,7 @@ $ bundle exec guard -c # shortcut
 ```
 
 You may prefer to enable clearing in all projects by addin the `clearing`
-statement (described below) in you `~/.guardrc` instead:
+statement (described below) in you `~/.guard.rb` instead:
 
 ```ruby
 clearing :on
