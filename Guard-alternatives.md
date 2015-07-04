@@ -4,8 +4,11 @@ Here's a list of know "alternatives" to Guard.
 
 Feel free to add/update entries and notes/caveats/differences.
 
-### File-config based with built-in execution:
+### Close in functionality to Guard
+- [watchdog](https://github.com/gorakhargosh/watchdog) - in Python
 - [nodemon](https://github.com/remy/nodemon) - has a '-x' option
+
+### File-config based with built-in execution:
 - [gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)
 - [gamin](https://people.gnome.org/~veillard/gamin/config.html)
 - [belvedere](http://lifehacker.com/341950/belvedere-automates-your-self-cleaning-pc) - Windows only, seems ancient
@@ -31,9 +34,16 @@ Feel free to add/update entries and notes/caveats/differences.
 - [wait_on](https://trac.macports.org/browser/trunk/dports/sysutils/wait_on/Portfile) - for BSD
 - [sleep_until_modified.py](https://bitbucket.org/denilsonsa/small_scripts/src/542edd54d290d476603e939027ca654b25487d85/sleep_until_modified.py?at=default)
 - [sleep_until_modified.sh](https://bitbucket.org/denilsonsa/small_scripts/src/542edd54d290d476603e939027ca654b25487d85/sleep_until_modified.sh?at=default)
+- [kqwait](https://github.com/sschober/kqwait) - for OSX
 
 #### Other
 - [launchd](https://en.wikipedia.org/wiki/Launchd) - although it only watches for path changes, not content changes
+- [pyinotify](https://github.com/seb-m/pyinotify)
+- [unison](https://webdav.seas.upenn.edu/viewvc/unison/trunk/src/fsmonitor.py?view=markup&pathrev=471)
+- [jnotify](http://jnotify.sourceforge.net)
+- [file.monitor](https://github.com/pke/file.monitor)
+- [pyfilesystem](https://github.com/PyFilesystem/pyfilesystem)
+
 
 #### Other sources of alternatives
 - [StackOverflow question 1](http://superuser.com/questions/181517/how-to-execute-a-command-whenever-a-file-changes/778876#778876)
