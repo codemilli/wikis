@@ -9,6 +9,7 @@ Feel free to add/update entries and notes/caveats/differences.
 - [nodemon](https://github.com/remy/nodemon) - has a '-x' option
 
 ### File-config based with built-in execution:
+- [watchman](https://facebook.github.io/watchman/) - client/server arch
 - [gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)
 - [gamin](https://people.gnome.org/~veillard/gamin/config.html)
 - [belvedere](http://lifehacker.com/341950/belvedere-automates-your-self-cleaning-pc) - Windows only, seems ancient
@@ -20,7 +21,7 @@ Feel free to add/update entries and notes/caveats/differences.
 ### Non-trivial CLI tools with built-in execution:
 - [entrproject](http://entrproject.org/)
 - [fswatch](https://github.com/emcrisostomo/fswatch)
-- [watchman](https://facebook.github.io/watchman/)
+
 
 #### Simple CLI tools with built-in execution:
 - [when-changed](https://github.com/joh/when-changed) - written in Python
