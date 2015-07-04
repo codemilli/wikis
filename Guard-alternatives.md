@@ -7,6 +7,7 @@ Feel free to add/update entries and notes/caveats/differences.
 ### File-config based with built-in execution:
 - [nodemon](https://github.com/remy/nodemon) - has a '-x' option
 - [gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)
+- [gamin](https://people.gnome.org/~veillard/gamin/config.html)
 - [belvedere](http://lifehacker.com/341950/belvedere-automates-your-self-cleaning-pc) - Windows only, seems ancient
 - [watch-4-folder](http://leelusoft.blogspot.in/2011/10/watch-4-folder-23.html) - Windows only, seems ancient
 
