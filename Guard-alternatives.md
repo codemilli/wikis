@@ -19,8 +19,9 @@ Feel free to add/update entries and notes/caveats/differences.
 - [fswatch](https://github.com/emcrisostomo/fswatch)
 
 #### Simple CLI tools with built-in execution:
-- [incron](http://inotify.aiken.cz/?section=incron&page=about&lang=en)
 - [when-changed](https://github.com/joh/when-changed) - written in Python
+- [incron](http://inotify.aiken.cz/?section=incron&page=about&lang=en) - Linux only, root only
+- [inoticoming](http://manpages.ubuntu.com/manpages/natty/en/man1/inoticoming.1.html) - watches dirs
 - [watchfile](http://swarminglogic.com/jotting/2014_02_watchfile)
 - [when_changed](https://github.com/benblamey/when_changed) - Windows only
 - [java-file-change-watcher](https://github.com/yankee42/java-file-change-watcher)
