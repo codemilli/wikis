@@ -29,7 +29,7 @@ Here are problems Guard helps avoid (compared to other scripts or tools like ino
 - more than 7 million gem downloads and almost no open issues
 - handles moving whole files and directories
 
-#### 4. more portabile:
+#### 4. more portable:
 
 - supports multiple platforms (Linux, OSX, BSD, Windows)
 - supports multiple backends (inotify, kqueue, polling)
