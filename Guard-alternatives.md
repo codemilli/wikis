@@ -4,7 +4,7 @@ Here's a list of know "alternatives" to Guard.
 
 Feel free to add/update entries and notes/caveats/differences.
 
-### Close in functionality to Guard
+### Close in functionality to Guard (config file + plugins)
 - [watchdog](https://github.com/gorakhargosh/watchdog) - in Python
 - [nodemon](https://github.com/remy/nodemon) - has a '-x' option
 
