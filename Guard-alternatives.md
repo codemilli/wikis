@@ -15,6 +15,7 @@ Feel free to add/update entries and notes/caveats/differences.
 
 ### Non-trivial CLI tools with built-in execution:
 - [entrproject](http://entrproject.org/)
+- [fswatch](https://github.com/emcrisostomo/fswatch)
 
 #### Simple CLI tools with built-in execution:
 - [incron](http://inotify.aiken.cz/?section=incron&page=about&lang=en)
