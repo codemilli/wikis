@@ -30,6 +30,9 @@ Feel free to add/update entries and notes/caveats/differences.
 - [sleep_until_modified.py](https://bitbucket.org/denilsonsa/small_scripts/src/542edd54d290d476603e939027ca654b25487d85/sleep_until_modified.py?at=default)
 - [sleep_until_modified.sh](https://bitbucket.org/denilsonsa/small_scripts/src/542edd54d290d476603e939027ca654b25487d85/sleep_until_modified.sh?at=default)
 
+#### Other
+- [launchd](https://en.wikipedia.org/wiki/Launchd) - although it only watches for path changes, not content changes
+
 #### Other sources of alternatives
 - [StackOverflow question 1](http://superuser.com/questions/181517/how-to-execute-a-command-whenever-a-file-changes/778876#778876)
 - [StackOverflow question 2](http://stackoverflow.com/questions/1515730/is-there-a-command-like-watch-or-inotifywait-on-the-mac)
