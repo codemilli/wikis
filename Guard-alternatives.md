@@ -20,6 +20,7 @@ Feel free to add/update entries and notes/caveats/differences.
 ### Non-trivial CLI tools with built-in execution:
 - [entrproject](http://entrproject.org/)
 - [fswatch](https://github.com/emcrisostomo/fswatch)
+- [watchman](https://facebook.github.io/watchman/)
 
 #### Simple CLI tools with built-in execution:
 - [when-changed](https://github.com/joh/when-changed) - written in Python
