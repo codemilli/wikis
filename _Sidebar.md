@@ -1,6 +1,7 @@
 **Intro**
 * [[Why Guard?]]
 * [[What people say about Guard]]
+* [[Guard Plugins]]
 * [[Guard alternatives]]
 
 **Installation**
@@ -22,7 +23,6 @@
 * [[Configuration Files]]
 * [[Interacting with Guard]]
 * [[Guard Signals|Interacting with Guard#guard-signals]]
-* [[Guard Plugins]]
 
 **Troubleshooting**
 
