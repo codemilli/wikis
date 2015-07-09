@@ -22,6 +22,7 @@
 * [[Configuration Files]]
 * [[Interacting with Guard]]
 * [[Guard Signals|Interacting with Guard#guard-signals]]
+* [[Guard Plugins]]
 
 **Troubleshooting**
 
