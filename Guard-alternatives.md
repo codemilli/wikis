@@ -1,6 +1,8 @@
 Here's a list of know "alternatives" to Guard.
 
-(The order should be: how generally feature-complete the tool is compared to Guard)
+The order should be: how generally feature-complete the tool is compared to Guard.
+
+(NOTE: if you "don't like Guard" for any reason - please open an issue so we have a chance to make things better).
 
 Feel free to add/update entries and notes/caveats/differences.
 
