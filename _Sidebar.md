@@ -1,5 +1,6 @@
 **Intro**
 * [[Why Guard?]]
+* [[What people say about Guard]]
 * [[Guard alternatives]]
 
 **Installation**
