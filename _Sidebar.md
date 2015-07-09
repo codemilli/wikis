@@ -1,5 +1,6 @@
 **Intro**
 * [[Why Guard?]]
+* [[Guard alternatives]]
 
 **Installation**
 
