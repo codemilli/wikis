@@ -24,7 +24,7 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 | [guard-livereload](https://rubygems.org/gems/guard-livereload) | Reloads browser whenever web pages change
 | [guard-minitest](https://rubygems.org/gems/guard-minitest) | runs Minitest and Test/Unit tests
 | [guard-nanoc](http://nanoc.ws/) | rebuild Nanoc websites
-| [guard-process]: | Manages background processes (servers, daemons)
+| [guard-process](https://github.com/guard/guard-process) | Manages background processes (servers, daemons)
 | [guard-yield](https://github.com/guard/guard-yield) | runs any Ruby code (without the need to write a Guard plugin)
 
 ## Rails related
@@ -69,7 +69,7 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 
 | Plugin | When to use |
 | ------ | ------------|
-| [guard-process]: | Manages background processes (servers, daemons)
+| [guard-process](https://github.com/guard/guard-process) | Manages background processes (servers, daemons)
 | [guard-redis](https://github.com/guard/guard-redis) |  restarts Redis server when needed
 | [guard-go](https://github.com/guard/guard-go) |  Run and restart go programs and servers when changed
 | [guard-resque](http://github.com/railsjedi/guard-resque) |  restarts Resque workers
