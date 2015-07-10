@@ -26,7 +26,6 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 | [guard-puppet](https://github.com/guard/guard-puppet) |  Helps build Puppet catalogs for deploying and managing sites and servers
 | [guard-shell](http://github.com/hawx/guard-shell) |  Runs shell commands when changes happen - also supports notifications and long -running programs
 | [guard-livereload](https://rubygems.org/gems/guard-livereload) | Reloads browser whenever web pages change
-| [guard-minitest](https://rubygems.org/gems/guard-minitest) | runs Minitest and Test/Unit tests
 | [guard-nanoc](http://nanoc.ws/) | rebuild Nanoc websites
 | [guard-process](https://github.com/guard/guard-process) | Manages background processes (servers, daemons)
 | [guard-yield](https://github.com/guard/guard-yield) | runs any Ruby code (without the need to write a Guard plugin)
