@@ -1,12 +1,16 @@
+NOTE: Guard maintainers are not responsible for the quality or suitability of the plugins below. (Though, some plugins are maintained by Guard core developers.)
 
+Ordering is generally by popularity/user-friendliness/completeness/support/active-development. Disputes about order should be resolved by project "star" count.
 
-NOTE: Guard mantainers are not responsible for the quality or suitability of the plugins below. (Though, some plugins are maintained by Guard core developers.)
-
-(Order: by area: popularity among beginners or ideally by star count - please update if needed)
+NOTE: if any plugins are broken or outdated, try the following:
+1. find the gem on rubygems.org, then go to the homepage
+2. file an issue there and wait up to a few days for the author to respond
+3. if the plugin author isn't responding CC a Guard maintainer in the issue (e.g. me: @e2)
 
 NOTE: some plugin authors work on their own forks instead of the forks in the Guard organization. Please update the links below if they point to the wrong/outdated fork.
 
 ## Popular / Featured / Well supported
+
 | Plugin | When to use |
 | ------ | ------------|
 | [guard-bundler](https://github.com/guard/guard-bundler) | installs/updates gems when Gemfile changes
@@ -368,11 +372,6 @@ NOTE: I (@e2) haven't gone through these - please move these into the above cate
 | [guard-yeti](https://github.com/hojberg/guard-yeti) |?
 | [guard-zeus-client](https://github.com/aceofsales/guard-zeus-client) |?
 | [guard-zeus_server]: |?
-
-NOTE: if any above plugins are broken or outdated, try the following:
-1. find the gem on rubygems.org, then go to the homepage
-2. file an issue there and wait up to a few days for the author to respond
-3. if the plugin author isn't responding CC a Guard maintainer in the issue (e.g. me: @e2)
 
 ### Outdated/Obsolete plugins
 
