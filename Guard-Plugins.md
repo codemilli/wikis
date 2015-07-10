@@ -40,7 +40,11 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 | [guard-annotate](http://craigjolicoeur.com) | Inserts "cheatsheets" about your database schema into your source files
 | [guard-passenger](https://github.com/guard/guard-passenger) |  Manages the Passenger server (restarts when necessary)
 | [guard-sprockets](https://github.com/guard/guard-sprockets) |  Recompiles assets using Sprockets
+| [guard-cogs](https://github.com/ralfthewise/guard-cogs) | guard-sprockets alternative
 | [guard-rails_best_practices](https://github.com/guard/guard-rails_best_practices) | check if code matches Rails Best Practices
+| [guard-bower_rails](https://rubygems.org/gems/guard-bower_rails) | Automatically install/update Rails bower dependencies
+| [guard-bundler-audit](https://github.com/christianhellsten/guard-bundler-audit) | check for gems with vulnerabilities
+| [guard-consistency_fail](http://rubygems.org/gems/guard-consistency_fail) | detect missing unique indexes in Rails projects
 
 ## Website generating/authoring
 
@@ -59,6 +63,7 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 | [guard-slim](https://github.com/guard/guard-slim) |  regenerate slim templates
 | [guard-haml](https://github.org/guard/guard-haml) | compile Haml templates to HTML
 | [guard-less](https://rubygems.org/gems/guard-less) | compile LESS templates
+| [guard-stylus](https://github.com/TimDumol/guard-stylus) | compile Node.js Stylus CSS templates
 
 
 ## General Web Development
@@ -90,6 +95,7 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 | ------ | ------------|
 | [guard-uglify](http://aaroncruz.com) |  compress JavaScript files using uglifier gem
 | [guard-steering](https://github.com/guard/guard-steering) |  Speed up Handlebar.js templates by precompiling them
+| [guard-concat](http://github.com/makevoid/guard-concat) | concat assets (JS/CSS) into single files
 
 ## Testing
 
@@ -108,6 +114,10 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 | [guard-jasmine-headless-webkit](https://github.com/guard/guard-jasmine-headless-webkit) |  rerun Jasmine tests in a headless WebKit instance
 | [guard-jasmine-node](https://github.com/kapoq/guard-jasmine-node) |  reruns Jasmine Node.js tests
 | [guard-jenkins](https://github.com/guard/guard-jenkins) |  sets a Jenkins status image depending whether there's a failure or not
+| [guard-bdd](http://github.com/nistude/guard-bdd) | run tests in order: unit tests, integration tests, then acceptance tests
+| [guard-cedar](https://github.com/ohrite/guard-cedar) | runs Cedar (Objective-C) BDD tests
+| [guard-codeception](https://github.com/colby-swandale/guard-codeception) | run Codeception tests (PHP)
+| [guard-combustion](http://github.com/Chosko/guard-combustion) | testing Rails Engines
 
 ### Code Quality
 | Plugin | When to use |
@@ -115,6 +125,7 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 | [guard-cane](https://github.com/guard/guard-cane) |  fails the build if your source files fail the quality level
 | [guard-rubocop](https://github.com/guard/guard-rubocop) |  Check your source files to style violations and potential problems
 | [guard-jshint-node](http://github.com/pahen/guard-jshint-node) |  detect errors and potential problems in JavaScript files
+| [guard-coffeelint](http://github.com/meagar/guard-coffeelint) | run coffeelint
 
 ### Documentation
 | Plugin | When to use |
@@ -128,7 +139,7 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 | [guard-markdown](https://github.com/guard/guard-markdown) |  convert Markdown files to HTML
 | [guard-ronn](https://rubygems.org/gems/guard-ronn) | compile man pages
 
-### DevOps
+### Deploying / DevOps / System services
 
 | Plugin | When to use |
 | ------ | ------------|
@@ -136,11 +147,15 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 | [guard-puppet](https://github.com/guard/guard-puppet) |  Helps build Puppet catalogs for deploying and managing sites and servers
 | [guard-chef](http://rubygems.org/gems/guard-chef) |  watches and reloads Chef recipes automatically
 | [guard-flopbox](http://github.com/vincentchu/guard-flopbox) | synchronize directories via SFTP
+| [guard-autoupload](https://github.com/jyrkij/guard-autoupload) | upload files using SFTP or FTP
+| [guard-bosh](https://github.com/cloudcredo/guard-bosh) | update Cloud Foundry BOSH config (large scale distributed services)
+| [guard-clockwork](https://github.com/deepblue/guard-clockwork) | restart Clockwork instances (Clockwork = Cron replacement written)
 
 ### Utility
 
 | Plugin | When to use |
 | ------ | ------------|
+| [guard-bundler](https://github.com/guard/guard-bundler) | installs/updates gems when Gemfile changes
 | [guard-ctags-bundler](https://github.com/ivalkeen/guard-ctags-bundler) |  regenerates CTags files so editors can find method definitions
 | [guard-shell](https://github.com/guard/guard-shell) |  Runs shell commands when changes happen - also supports notifications and long -running programs
 | [guard-yield](https://github.com/guard/guard-yield) | runs any Ruby code (without the need to write a Guard plugin)
@@ -149,6 +164,10 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 | [guard-post](http://github.com/viatropos/guard-post) |  automatically load text files into database records (Mongoid, ActiveRecord, etc.)
 | [guard-lilypond](https://github.com/guard/guard-lilypond) | Engraving music scores
 | [guard-zen](http://iscra.co.uk) |  Runs Ruby Koans
+| [guard-blogger](https://github.com/scottatron/guard-blogger) | update Blogger templates
+| [guard-cocoapods](https://github.com/kreeger/guard-cocoapods) | installs CocoaPods
+| [guard-bundler](https://github.com/guard/guard-bundler) | installs/updates gems when Gemfile changes
+| [guard-copy](https://github.com/marcisme/guard-copy) | copy files whenever files are created or modified
 
 
 ### Guard Plugin development
@@ -166,29 +185,13 @@ NOTE: I (@e2) haven't gone through these - please move these into the above cate
 | ------ | ------------|
 | [guard-addremove](http://github.com/pehlert/guard-addremove) | ?
 | [guard-asciidoctor]: | ?
-| [guard-autoupload](https://github.com/jyrkij/guard-autoupload) | ?
 | [guard-bacon]: | ?
-| [guard-bdd](http://github.com/nistude/guard-bdd) |?
 | [guard-blink1](https://github.com/GeoffTidey/guard-blink1) |?
-| [guard-blogger](https://github.com/scottatron/guard-blogger) |?
-| [guard-bosh](https://github.com/cloudcredo/guard-bosh) |?
 | [guard-bower]: |?
-| [guard-bower_rails](https://rubygems.org/gems/guard-bower_rails) |?
-| [guard-bundler-audit](https://github.com/christianhellsten/guard-bundler-audit) |?
 | [guard-catalog](https://github.com/garno/guard-catalog) |?
-| [guard-cedar](https://github.com/ohrite/guard-cedar) |?
-| [uard-clockwork](https://github.com/deepblue/guard-clockwork) |?
 | [guard-cloudformation]: |?
-| [guard-cocoapods](https://github.com/kreeger/guard-cocoapods) |?
-| [guard-codeception](https://github.com/colby-swandale/guard-codeception) |?
-| [guard-coffeelint](http://github.com/meagar/guard-coffeelint) |?
-| [guard-cogs](https://github.com/ralfthewise/guard-cogs) |?
-| [guard-combustion](http://github.com/Chosko/guard-combustion) |?
-| [guard-concat](http://github.com/makevoid/guard-concat) |?
 | [guard-concatfilter](http://github.com/geoffyoungs/guard-concat) |?
-| [guard-consistency_fail](http://rubygems.org/gems/guard-consistency_fail) |?
 | guard-cop: |?
-| [guard-copy](https://github.com/marcisme/guard-copy) |?
 | [guard-copy2](https://github.com/TimDumol/guard-stylus) |?
 | [guard-copy3](https://github.com/mattjorn/guard-copy3) |?
 | [guard-ctags-composer](https://github.com/everzet/guard-ctags-composer) |?
@@ -349,7 +352,6 @@ NOTE: I (@e2) haven't gone through these - please move these into the above cate
 | [guard-stitch]: |?
 | [guard-stitch-plus](https://github.com/imathis/guard-stitch-plus) |?
 | [guard-strainer](https://github.com/wingrunr21/guard-strainer) |?
-| [guard-stylus](https://github.com/TimDumol/guard-stylus) |?
 | [guard-sublime-ctags](https://github.com/sunteya/guard-sublime-ctags) |?
 | [guard-sunspot](http://github.com/anthonator/guard-sunspot) |?
 | [guard-sync]: |?
