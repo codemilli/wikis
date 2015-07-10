@@ -42,7 +42,7 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 | [guard-sprockets](https://github.com/guard/guard-sprockets) |  Recompiles assets using Sprockets
 | [guard-rails_best_practices](https://github.com/guard/guard-rails_best_practices) | check if code matches Rails Best Practices
 
-## Website generating
+## Website generating/authoring
 
 | Plugin | When to use |
 | ------ | ------------|
@@ -50,22 +50,25 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 | [guard-middleman](https://github.com/guard/guard-middleman) |  Rebuilds Middleman static websites
 | [guard-nanoc](http://nanoc.ws/) | rebuild Nanoc websites
 
-## General Web Development & Design
+## Web CSS/template processing/compiling
+
+| [guard-coffeescript](https://github.com/guard/guard-coffeescript) |  Compiles CoffeeScript files
+| [guard-compass](https://github.com/guard/guard-compass) |  Rebuilds your CSS files in Compass Sass projects
+| [guard-tilt](http://github.com/boof/guard-tilt) |?
+| [guard-sass](https://github.com/guard/guard-sass) |  Recompiles Sass files to CSS
+| [guard-slim](https://github.com/guard/guard-slim) |  regenerate slim templates
+| [guard-haml](https://github.org/guard/guard-haml) | compile Haml templates to HTML
+| [guard-less](https://rubygems.org/gems/guard-less) | compile LESS templates
+
+
+## General Web Development
 
 | Plugin | When to use |
 | ------ | ------------|
 | [guard-livereload](https://rubygems.org/gems/guard-livereload) | Reloads browser whenever web pages change
-| [guard-coffeescript](https://github.com/guard/guard-coffeescript) |  Compiles CoffeeScript files
-| [guard-compass](https://github.com/guard/guard-compass) |  Rebuilds your CSS files in Compass Sass projects
-| [guard-sass](https://github.com/guard/guard-sass) |  Recompiles Sass files to CSS
-| [guard-steering](https://github.com/guard/guard-steering) |  Speed up Handlebar.js templates by precompiling them
 | [guard-pusher](http://github.com/carhartl/guard-pusher) |  Send messages to multiple iPad/iPhone browsers (like "reload page")
 | [guard-shopify](https://github.com/guard/guard-shopify) |  automatically upload and update Shopify templates when they change
-| [guard-slim](https://github.com/guard/guard-slim) |  regenerate slim templates
 | [guard-premailer](https://github.com/guard/guard-premailer) |  inline CSS in email templates
-| [guard-uglify](http://aaroncruz.com) |  compress JavaScript files using uglifier gem
-| [guard-haml](https://github.org/guard/guard-haml) | compile Haml templates to HTML
-| [guard-less](https://rubygems.org/gems/guard-less) | compile LESS templates
 | [guard-sprite-factory](https://github.com/guard/guard-sprite-factory) | Web Development | regenerate CSS sprites from a series of images
 
 ### Restarting servers/daemons/workers
@@ -78,7 +81,15 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 | [guard-resque](http://github.com/railsjedi/guard-resque) |  restarts Resque workers
 | [guard-delayed](https://github.com/guard/guard-delayed) |  automatically restarts delayed_job workers
 | [guard-webrick](https://github.com/guard/guard-webrick) |  Restarts WEBrick server when needed
+| [guard-rack](https://github.com/dblock/guard-rack) | restarts Rack app server
+| [guard-puma](https://github.com/jc00ke/guard-puma) | restarts Puma app server
 
+## Web asset optimization
+
+| Plugin | When to use |
+| ------ | ------------|
+| [guard-uglify](http://aaroncruz.com) |  compress JavaScript files using uglifier gem
+| [guard-steering](https://github.com/guard/guard-steering) |  Speed up Handlebar.js templates by precompiling them
 
 ## Testing
 
@@ -285,12 +296,10 @@ NOTE: I (@e2) haven't gone through these - please move these into the above cate
 | [guard-preserves]: |?
 | [guard-processing](http://github.com/y310/guard-processing) |?
 | [guard-prostores]: |?
-| [guard-puma](https://github.com/jc00ke/guard-puma) |?
 | [guard-puppet-lint](http://github.com/alister/guard-puppet-lint) |?
 | [guard-pushover](https://github.com/joenas/guard-pushover/) |?
 | [guard-pytest](https://github.com/kazufusa/guard-pytest) |?
 | [guard-python-unittest]: |?
-| [guard-rack](https://github.com/dblock/guard-rack) |?
 | [guard-rackunit](https://github.com/neomantic/guard-rackunit) |?
 | [guard-rackup]: |?
 | [guard-ragel](https://github.com/excepttheweasel/guard-ragel) |?
@@ -350,7 +359,6 @@ NOTE: I (@e2) haven't gone through these - please move these into the above cate
 | [guard-templates]: |?
 | [guard-templates-jshaml](https://github.com/sdrdis/guard-templates-jshaml/) |?
 | [guard-test](https://rubygems.org/gems/guard-test) |?
-| [guard-tilt](http://github.com/boof/guard-tilt) |?
 | [guard-tishadow](http://github.com/ijcd/guard-tishadow) |?
 | [guard-titan](https://github.com/dcunited001/guard-titan) |?
 | [guard-toc](https://github.com/j2fly/guard-toc) |?
