@@ -41,12 +41,15 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 | [guard-annotate](http://craigjolicoeur.com) | Inserts "cheatsheets" about your database schema into your source files
 | [guard-passenger](https://github.com/guard/guard-passenger) |  Manages the Passenger server (restarts when necessary)
 | [guard-sprockets](https://github.com/guard/guard-sprockets) |  Recompiles assets using Sprockets
+| [guard-llsprockets](https://github.com/LivingLogic/guard-llsprockets) | recompiles assets using Sprockets
 | [guard-cogs](https://github.com/ralfthewise/guard-cogs) | guard-sprockets alternative
 | [guard-rails_best_practices](https://github.com/guard/guard-rails_best_practices) | check if code matches Rails Best Practices
 | [guard-bower_rails](https://rubygems.org/gems/guard-bower_rails) | Automatically install/update Rails bower dependencies
 | [guard-bundler-audit](https://github.com/christianhellsten/guard-bundler-audit) | check for gems with vulnerabilities
 | [guard-consistency_fail](http://rubygems.org/gems/guard-consistency_fail) | detect missing unique indexes in Rails projects
 | [guard-flow](https://github.com/blainekasten/guard-flow) | runs flow type checker on Rails javascript files
+| [guard-rails_best_practices](http://rubygems.org/gems/guard-rails_best_practices) | Rails Best Practices runner
+| [guard-railsbp](https://github.com/andreygerasimchuk/guard-railsbp) | Rails Best Practices runner
 
 ## Website generating/authoring
 
@@ -55,6 +58,9 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 | [guard-jekyll-plus](http://github.com/imathis/guard-jekyll-plus) |  Extensive plugin for working with Jekyll projects
 | [guard-middleman](https://github.com/guard/guard-middleman) |  Rebuilds Middleman static websites
 | [guard-nanoc](http://nanoc.ws/) | rebuild Nanoc websites
+| [guard-mouch](https://github.com/semanticdreamer/guard-mouch) | Mouch/CouchDB apps
+| [guard-sculpin](http://github.com/florianeckerstorfer/guard-sculpin) | Sculping site generator (PHP)
+| [guard-staticmatic](https://github.com/mihar/guard-staticmatic) | Staticmatic site generator
 
 ## Web CSS/template processing/compiling
 
@@ -73,6 +79,9 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 | [guard-herbalizer](https://github.com/ouvrages/guard-herbalizer) | converts Haml to Erb using herbalizer
 | [guard-hogan](http://github.com/fullsailor/guard-hogan) | compiles hogan mustache templates
 | [guard-jade](https://github.com/TimDumol/guard-jade) | compile Jade files
+| [guard-lessc](https://github.com/cavneb/guard-lessc) | compiles less file to a target output file using lessc
+| [guard-mthaml](http://github.com/ezekg/guard-mthaml) | compile Haml to PHP, Twig or static HTML
+| [guard-mustachejs](https://github.com/jamiew/guard-mustachejs) | compile mustachejs into a single js file
 
 
 ## General Web Development
@@ -82,7 +91,8 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 | [guard-livereload](https://rubygems.org/gems/guard-livereload) | Reloads browser whenever web pages change
 | [guard-embertools](https://github.com/wbhumphrey/guard-embertools) | rebuilds application.js when ember files are modified
 | [guard-pusher](http://github.com/carhartl/guard-pusher) |  Send messages to multiple iPad/iPhone browsers (like "reload page")
-| [guard-shopify](https://github.com/guard/guard-shopify) |  automatically upload and update Shopify templates when they change
+| [guard-shopify](https://github.com/1337807/guard-shopify) |  automatically upload and update Shopify templates when they change
+| [guard-shopifytheme](http://github.com/dannysmith/guard-shopifytheme) | update through Shopify theme
 | [guard-premailer](https://github.com/guard/guard-premailer) |  inline CSS in email templates
 | [guard-sprite-factory](https://github.com/guard/guard-sprite-factory) | Web Development | regenerate CSS sprites from a series of images
 | [guard-i18n-js](http://rubygems.org/gems/guard-i18n-js) | export i18n js tranlations
@@ -95,6 +105,7 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 | [guard-redis](https://github.com/guard/guard-redis) |  restarts Redis server when needed
 | [guard-go](https://github.com/guard/guard-go) |  Run and restart go programs and servers when changed
 | [guard-resque](http://github.com/railsjedi/guard-resque) |  restarts Resque workers
+| [guard-resque-scheduler](http://github.com/dlnichols/guard-resque-scheduler) | restarts Resque in dev mode
 | [guard-delayed](https://github.com/guard/guard-delayed) |  automatically restarts delayed_job workers
 | [guard-webrick](https://github.com/guard/guard-webrick) |  Restarts WEBrick server when needed
 | [guard-rack](https://github.com/dblock/guard-rack) | restarts Rack app server
@@ -103,6 +114,12 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 | [guard-goliath](https://github.com/duderman/guard-goliath) | restarts Goliath apps
 | [guard-grunt](http://rubygems.org/gems/guard-grunt) | restarts Grunt
 | [guard-gulp](http://rubygems.org/gems/guard-gulp) | restarts Gulp
+| [guard-pow](http://rubygems.org/gems/guard-pow) | restarts Pow applications
+| [guard-rails](https://github.com/ranmocy/guard-rails) | manage Rails server (handling Zeus parameters, daemon mode, etc.)
+| [guard-restarter](https://github.com/cespare/guard-restarter) | restarts some process
+| [guard-shotgun](http://github.com/rchampourlier/guard-shotgun) | restart Sinatra server
+| [guard-sidekiq](http://github.com/uken/guard-sidekiq) | restart Sidekiq workers
+| [guard-spin](http://github.com/vizjerai/guard-spin) | restart Spin server
 
 ## Web asset optimization
 
@@ -113,53 +130,103 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 | [guard-concat](http://github.com/makevoid/guard-concat) | concat assets (JS/CSS) into single files
 | [guard-image_optim](http://github.com/ezekg/guard-image_optim) | optimizes images with image_optim
 | [guard-imageoptim](https://github.com/rjocoleman/guard-imageoptim/) | optimze images with ImageOptim-CLI
+| [guard-sprockets2](https://github.com/stevehodgkiss/guard-sprockets2) | sprockets for Rails, Sinatra or Rack
 
-## Testing
+## Testing (Ruby)
 
 | Plugin | When to use |
 | ------ | ------------|
 | [guard-cucumber](https://github.com/guard/guard-cucumber) |  Reruns changed/affected Cucumber Features
 | [guard-rspec](https://rubygems.org/gems/guard-rspec) | Smart/incremental RSpec runner
 | [guard-minitest](https://rubygems.org/gems/guard-minitest) | runs Minitest and Test/Unit tests
-| [guard-jasmine](https://github.com/guard/guard-jasmine) | Frontend testing using PhantomJS/Webkit
-| [guard-teaspoon](https://github.com/guard/guard-teaspoon) |  Web testing with PhantomJS or Selenium WebDriver
-| [guard-prove](https://github.com/guard/guard-prove) |  reruns Perl tests
 | [guard-motion](https://github.com/guard/guard-motion) |  reruns specs for RubyMotion (iOS, Android, OSX Ruby apps)
-| [guard-phpunit](https://github.com/guard/guard-phpunit) |  Guard::PHPUnit automatically runs your tests
+| [guard-bdd](http://github.com/nistude/guard-bdd) | run tests in order: unit tests, integration tests, then acceptance tests
+| [guard-combustion](http://github.com/Chosko/guard-combustion) | testing Rails Engines
+| [guard-spinach](http://github.com/codegram/guard-spinach) | BDD framework on top of Gherkin
+| [guard-spinoff](https://github.com/bernd/guard-spinoff) | preload your Ruby environment using fork()
+| [guard-spork](http://rubygems.org/gems/guard-spork) | manage Spork DRb servers
+
+## Testing (JRuby workarounds)
+
+| Plugin | When to use |
+| ------ | ------------|
+| [guard-jruby-minitest](https://github.com/jackxxu/guard-jruby-minitest) | no-startup-code JRuby Minitest test reloader
+| [guard-jruby-rspec](http://rubygems.org/gems/guard-jruby-rspec) | keeps a JVM warmed up for your specs
+| [guard-rspec-jruby](http://github.com/garrettheaver/guard-rspec-jruby) | improve JRuby test performance
+
+## Testing (Various)
+
+| Plugin | When to use |
+| ------ | ------------|
+| [guard-prove](https://github.com/guard/guard-prove) |  reruns Perl tests
 | [guard-frank](https://github.com/AlexDenisov/guard-frank) |  rerun Frank-Cucumber (iOS) features
 | [guard-calabash-ios](https://github.com/AlexDenisov/guard-calabash-ios) |  return Calabash iOS Cucumber features
-| [guard-jasmine-headless-webkit](https://github.com/guard/guard-jasmine-headless-webkit) |  rerun Jasmine tests in a headless WebKit instance
-| [guard-jasmine-node](https://github.com/kapoq/guard-jasmine-node) |  reruns Jasmine Node.js tests
 | [guard-jenkins](https://github.com/guard/guard-jenkins) |  sets a Jenkins status image depending whether there's a failure or not
-| [guard-bdd](http://github.com/nistude/guard-bdd) | run tests in order: unit tests, integration tests, then acceptance tests
 | [guard-cedar](https://github.com/ohrite/guard-cedar) | runs Cedar (Objective-C) BDD tests
-| [guard-codeception](https://github.com/colby-swandale/guard-codeception) | run Codeception tests (PHP)
-| [guard-combustion](http://github.com/Chosko/guard-combustion) | testing Rails Engines
 | [guard-cunit](http://teacup-on-rockingchair.github.com/guard-cunit/)| run CUnit tests
 | [guard-elixir](https://github.com/webcoyote/guard-elixir) | runs Elixir tests using "mix test"
 | [guard-gotest](https://github.com/hatoishi/guard-gotest) | runs Go tests
+| [guard-haskell](https://github.com/supki/guard-haskell#readme) | runs Haskell specs
+| [guard-julia](https://github.com/svs14/guard-julia) | runs Julia tests
+| [guard-ocunit](https://github.com/ap4y/guard-ocunit) | run OCUnit tests on ios-sim
+| [guard-pytest](https://github.com/kazufusa/guard-pytest) | runs pytest (Python)
+| [guard-rackunit](https://github.com/neomantic/guard-rackunit) | runs Racket's RackUnit tests
+| [guard-rebar](http://github.com/andrzejsliwa/guard-rebar) | use Rebar to run Erlang tests
+| [guard-roxy](https://github.com/paxtonhare/guard-roxy) | runs Roxy unit tests (MarkLogic apps)
+
+## Testing (JavaScript)
+
+| Plugin | When to use |
+| ------ | ------------|
+| [guard-jasmine](https://github.com/guard/guard-jasmine) | Frontend testing using PhantomJS/Webkit
+| [guard-teaspoon](https://github.com/guard/guard-teaspoon) |  Web testing with PhantomJS or Selenium WebDriver
+| [guard-jaspec](https://github.com/gisikw/guard-jaspec) | run Jaspec JavaScript files
+| [guard-konacha](https://github.com/alexgb/guard-konacha) | runs Konacha (mocha + chai) JavaScript tests on Rails apps
+| [guard-karma](https://github.com/lesniakania/guard-karma) | runs the Karma JS test runner
+| [guard-jessie](https://github.com/mehowte/guard-jessie) | Jasmine runner using Node.js Jessie runner
+| [guard-jasmine-node](https://github.com/kapoq/guard-jasmine-node) |  reruns Jasmine Node.js tests
+| [guard-jasmine-headless-webkit](https://github.com/guard/guard-jasmine-headless-webkit) |  rerun Jasmine tests in a headless WebKit instance
+| [guard-mocha-node](https://github.com/neerolyte/guard-mocha-node) | test node.js code with mocha
+| [guard-phantomjs-jasmine](http://github.com/stas/guard-phantomjs-jasmine) | run jasmine specs with PhantomJS
+
+## Testing (Java)
+
+| Plugin | When to use |
+| ------ | ------------|
+| [guard-maven](https://github.com/jhubert/guard-maven) | run Maven tests (Java)
 | [guard-gradle](https://github.com/bricker/guard-gradle) | builds and runs Java tests (Gradle projects)
 | [guard-gradle-android-test](https://github.com/STAR-ZERO/guard-gradle-android-test) | runs Java Gradle tests for Android
 | [guard-java](http://github.com/infospace/guard-java) | run tests in Java (using Ant or shell) + Android support
-| [guard-haskell](https://github.com/supki/guard-haskell#readme) | runs Haskell specs
-| [guard-jaspec](https://github.com/gisikw/guard-jaspec) | run Jaspec JavaScript files
-| [guard-jessie](https://github.com/mehowte/guard-jessie) | Jasmine runner using Node.js Jessie runner
-| [guard-jruby-minitest](https://github.com/jackxxu/guard-jruby-minitest) | no-startup-code JRuby Minitest test reloader
-| [guard-jruby-rspec](http://rubygems.org/gems/guard-jruby-rspec) | keeps a JVM warmed up for your specs
-| [guard-julia](https://github.com/svs14/guard-julia) | runs Julia tests
-| [guard-karma](https://github.com/lesniakania/guard-karma) | runs the Karma JS test runner
-| [guard-konacha](https://github.com/alexgb/guard-konacha) | runs Konacha (mocha + chai) JavaScript tests on Rails apps
+
+## Testing (PHP)
+
+| Plugin | When to use |
+| ------ | ------------|
+| [guard-phpunit](https://github.com/guard/guard-phpunit) |  Guard::PHPUnit automatically runs your tests
+| [guard-codeception](https://github.com/colby-swandale/guard-codeception) | run Codeception tests (PHP)
+| [guard-phpspec](http://github.com/lsd/guard-phpspec) | runs PHPSpec
 
 ### Code Quality
 | Plugin | When to use |
 | ------ | ------------|
-| [guard-cane](https://github.com/guard/guard-cane) |  fails the build if your source files fail the quality level
+| [guard-cane](https://github.com/guard/guard-cane) | fails the build if your source files fail the quality level
 | [guard-rubocop](https://github.com/guard/guard-rubocop) |  Check your source files to style violations and potential problems
+| [guard-flog](https://github.com/pericles/guard-flog/) | creates flog reports
+| [guard-reek](https://github.com/gvillalta99/guard-reek) | find code smells
+| [guard-rubybeautify](https://github.com/erniebrodeur/guard-rubybeautify) | beautifies Ruby code
+| [guard-rubycritic](https://github.com/whitesmith/guard-rubycritic) | detects code smells in Ruby using Rubycritic
+
+### Code Quality (Javascript)
 | [guard-jshint-node](http://github.com/pahen/guard-jshint-node) |  detect errors and potential problems in JavaScript files
 | [guard-coffeelint](http://github.com/meagar/guard-coffeelint) | run coffeelint
-| [guard-flog](https://github.com/pericles/guard-flog/) | creates flog reports
 | [guard-jshint-on-rails](https://github.com/MrOrz/guard-jshint-on-rails) | uses jshint on Rails project
 | [guard-jslint](https://github.com/thelazycamel/guard-jslint) | runs jslint on JavaScript files
+
+### Code Quality (PHP)
+| Plugin | When to use |
+| ------ | ------------|
+| [guard-phpcs](http://github.com/EricHogue/guard-phpcs) | detects and fixes PHP, JS and CSS violations
+| [guard-phpmd](http://github.com/EricHogue/guard-phpmd) | runs PHP Mess Detector on changed files
 
 ### Documentation
 | Plugin | When to use |
@@ -173,22 +240,41 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 | [guard-markdown](https://github.com/guard/guard-markdown) |  convert Markdown files to HTML
 | [guard-ronn](https://rubygems.org/gems/guard-ronn) | compile man pages
 | [guard-inch](https://github.com/chills42/guard-inch) | documentation measurement tool for Ruby
+| [guard-rdoc](https://github.com/bspaulding/guard-rdoc) | rebuild rdoc on code changes
+| [guard-redcarpet](https://github.com/SegFaultAX/guard-redcarpet) | use Redcarpet gem to process markdown to html
+
+
+### DevOps / Chef
+
+| Plugin | When to use |
+| ------ | ------------|
+| [guard-foodcritic](https://github.com/Nordstrom/guard-foodcritic) | lint tool for Opscode Chef cookbooks
+| [guard-chef](http://rubygems.org/gems/guard-chef) |  watches and reloads Chef recipes automatically
+| [guard-kitchen](http://github.com/opscode/guard-kitchen) | use Kitchen to develop Chef cookbooks
+| [guard-knife](https://github.com/nistude/guard-knife) | update Chef cookbooks, data bags, envs and roles automatically
+| [guard-librarian](http://rubygems.org/gems/guard-librarian) | automatically install Chef cookbook dependencies in Cheffile using librarian-chef
+| [guard-rake-vagrant](https://github.com/afiune/guard-rake-vagrant) | converge cookbooks and run integration tests
+| [guard-rsync](http://github.com/kselden/guard-rsync) |  automatically sync directories with RSync whenever they change
+| [guard-remote-sync](https://github.com/pmcjury/guard-remote-sync) | RSync runner
+
+### DevOps / Puppet
+
+| Plugin | When to use |
+| ------ | ------------|
+| [guard-puppet](https://github.com/guard/guard-puppet) |  Helps build Puppet catalogs for deploying and managing sites and servers
+| [guard-puppet-lint](http://github.com/alister/guard-puppet-lint) | runs puppet-lint
 
 ### Deploying / DevOps / System services
 
 | Plugin | When to use |
 | ------ | ------------|
 | [guard-s3](https://github.com/guard/guard-s3) |  Synchronize folders with Amazon S3 buckets
-| [guard-puppet](https://github.com/guard/guard-puppet) |  Helps build Puppet catalogs for deploying and managing sites and servers
-| [guard-chef](http://rubygems.org/gems/guard-chef) |  watches and reloads Chef recipes automatically
 | [guard-flopbox](http://github.com/vincentchu/guard-flopbox) | synchronize directories via SFTP
 | [guard-autoupload](https://github.com/jyrkij/guard-autoupload) | upload files using SFTP or FTP
 | [guard-bosh](https://github.com/cloudcredo/guard-bosh) | update Cloud Foundry BOSH config (large scale distributed services)
 | [guard-clockwork](https://github.com/deepblue/guard-clockwork) | restart Clockwork instances (Clockwork = Cron replacement written)
 | [guard-fig](https://rubygems.org/gems/guard-fig) | help develop docker containers using fig
-| [guard-foodcritic](https://github.com/Nordstrom/guard-foodcritic) | lint tool for Opscode Chef cookbooks
-| [guard-kitchen](http://github.com/opscode/guard-kitchen) | use Kitchen to develop Chef cookbooks
-| [guard-knife](https://github.com/nistude/guard-knife) | update Chef cookbooks, data bags, envs and roles automatically
+| [guard-shoryuken](http://github.com/tagloo/guard-shoryuken) | Amazon AWS SQS thread based message processor
 
 ### Editor helpers (ctags generators)
 
@@ -205,7 +291,6 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 | [guard-shell](https://github.com/guard/guard-shell) |  Runs shell commands when changes happen - also supports notifications and long -running programs
 | [guard-yield](https://github.com/guard/guard-yield) | runs any Ruby code (without the need to write a Guard plugin)
 | [guard-rake](http://github.com/rubyist/guard-rake) |  reruns a rake task when files change
-| [guard-rsync](http://github.com/kselden/guard-rsync) |  automatically sync directories with RSync whenever they change
 | [guard-post](http://github.com/viatropos/guard-post) |  automatically load text files into database records (Mongoid, ActiveRecord, etc.)
 | [guard-lilypond](https://github.com/guard/guard-lilypond) | Engraving music scores
 | [guard-zen](http://iscra.co.uk) |  Runs Ruby Koans
@@ -216,6 +301,10 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 | [guard-copy3](https://github.com/mattjorn/guard-copy3) | copies files and folders whenever files are created or modified
 | [guard-entangle](http://rubygems.org/gems/guard-entangle) | expands files inline
 | [guard-gitpusher](https://github.com/hatone/guard-gitpusher) | automatically uploads changed files to Git repository
+| [guard-mirror](https://github.com/caseywebdev/guard-mirror) | copies CoffeeScript/Styles/Jade source into another location
+| [guard-npm](http://rubygems.org/gems/guard-npm) | instal/update npm packages from package.json
+| [guard-pushover](https://github.com/joenas/guard-pushover/) | send Pushover real-time notifications to mobile devices
+| [guard-ragel](https://github.com/excepttheweasel/guard-ragel) | generate Ragel state machine files
 
 
 ### Guard Plugin development
@@ -267,91 +356,39 @@ NOTE: I (@e2) haven't gone through these - please move these into the above cate
 | [guard-koans]: |?
 | [guard-konacha-rails](https://github.com/lbeder/guard-konacha-rails) |?
 | [guard-konacha-version](https://github.com/lbeder/guard-konacha-rails) |?
-| [guard-lessc](https://github.com/cavneb/guard-lessc) |?
-| [guard-librarian](http://rubygems.org/gems/guard-librarian) |?
 | [guard-live-set](http://github.com/mgarriss/guard-live-set) |?
-| [guard-llsprockets](https://github.com/LivingLogic/guard-llsprockets) |?
 | [guard-lono]: |?
 | [guard-markdown](https://github.com/darwalenator/guard-markdown) |?
 | [guard-markdown2impress](http://rubygems.org/gems/guard-markdown2impress) |?
-| [guard-maven](https://github.com/jhubert/guard-maven) |?
 | [guard-minitest-decisiv](http://github.com/DecisivInc/guard-minitest) |?
-| [guard-mirror](https://github.com/caseywebdev/guard-mirror) |?
-| [guard-mocha-node](https://github.com/neerolyte/guard-mocha-node) |?
-| [guard-mouch](https://github.com/semanticdreamer/guard-mouch) |?
-| [guard-mthaml](http://github.com/ezekg/guard-mthaml) |?
-| [guard-mustachejs](https://github.com/jamiew/guard-mustachejs) |?
-| [guard-mutant](https://github.com/yujinakayama/guard-rubocop) |?
 | [guard-notifier-blink1](https://github.com/Sixeight/guard-notifier-blink1) |?
 | [guard-notifier-git_auto_commit]: |?
 | [guard-notifier-gntp_only-darwin](https://github.com/mmichaa/guard-notifier-gntp_only-darwin) |?
-| [guard-npm](http://rubygems.org/gems/guard-npm) |?
-| [guard-ocunit](https://github.com/ap4y/guard-ocunit) |?
 | [guard-opal-rails]: |?
 | [guard-openscad](http://github.com/cpb/guard-openscad) |?
 | [guard-parallel_all](https://github.com/answer/guard-parallel_all) |?
 | [guard-pdflatex](http://github.com/jimjh/guard-pdflatex) |?
-| [guard-phantomjs-jasmine](http://github.com/stas/guard-phantomjs-jasmine) |?
-| [guard-phpcs](http://github.com/EricHogue/guard-phpcs) |?
-| [guard-phpmd](http://github.com/EricHogue/guard-phpmd) |?
-| [guard-phpspec](http://github.com/lsd/guard-phpspec) |?
 | [guard-phpunit2]: |?
 | [guard-play](http://github.com/crazycode/guard-play) |?
-| [guard-pow](http://rubygems.org/gems/guard-pow) |?
 | [guard-predictionio](https://rubygems.org/RootsRated/guard-predictionio) |?
 | [guard-preek]: |?
 | [guard-preserves]: |?
 | [guard-processing](http://github.com/y310/guard-processing) |?
 | [guard-prostores]: |?
-| [guard-puppet-lint](http://github.com/alister/guard-puppet-lint) |?
-| [guard-pushover](https://github.com/joenas/guard-pushover/) |?
-| [guard-pytest](https://github.com/kazufusa/guard-pytest) |?
 | [guard-python-unittest]: |?
-| [guard-rackunit](https://github.com/neomantic/guard-rackunit) |?
 | [guard-rackup]: |?
-| [guard-ragel](https://github.com/excepttheweasel/guard-ragel) |?
-| [guard-rails](https://github.com/ranmocy/guard-rails) |?
-| [guard-rails_best_practices](http://rubygems.org/gems/guard-rails_best_practices) |?
-| [guard-railsbp](https://github.com/andreygerasimchuk/guard-railsbp) |?
-| [guard-railstestdb](https://github.com/singlebrook/guard-railstestdb) |?
-| [guard-rake-vagrant](https://github.com/afiune/guard-rake-vagrant) |?
-| [guard-rdoc](https://github.com/bspaulding/guard-rdoc) |?
-| [guard-rebar](http://github.com/andrzejsliwa/guard-rebar) |?
-| [guard-redcarpet](https://github.com/SegFaultAX/guard-redcarpet) |?
-| [guard-reek](https://github.com/gvillalta99/guard-reek) |?
-| [guard-reloader](https://github.com/fajarmf/Rails-Autotester) |?
-| [guard-remote-sync](https://github.com/pmcjury/guard-remote-sync) |?
-| [guard-resque-scheduler](http://github.com/dlnichols/guard-resque-scheduler) |?
-| [guard-restarter](https://github.com/cespare/guard-restarter) |?
 | [guard-rna]: |?
-| [guard-roxy](https://github.com/paxtonhare/guard-roxy) |?
 | [guard-rrails](http://github.com/walf443/guard-rrails) |?
-| [guard-rspec-jruby](http://github.com/garrettheaver/guard-rspec-jruby) |?
 | [guard-rubby](http://rubby-lang.org/) |?
 | [guard-ruby]: |?
-| [guard-rubybeautify](https://github.com/erniebrodeur/guard-rubybeautify) |?
-| [guard-rubycritic](https://github.com/whitesmith/guard-rubycritic) |?
 | [guard-rust]: |?
 | [guard-schema](https://github.com/icrowley/guard-schema) |?
 | [guard-schema](https://github.com/icrowley/guard-schema) |?
-| [guard-sculpin](http://github.com/florianeckerstorfer/guard-sculpin) |?
 | [guard-seeds](https://github.com/icrowley/guard-seeds) |?
 | [guard-shellexec]: |?
-| [guard-shopify](https://github.com/1337807/guard-shopify) |?
-| [guard-shopifytheme](http://github.com/dannysmith/guard-shopifytheme) |?
-| [guard-shoryuken](http://github.com/tagloo/guard-shoryuken) |?
-| [guard-shotgun](http://github.com/rchampourlier/guard-shotgun) |?
-| [guard-sidekiq](http://github.com/uken/guard-sidekiq) |?
 | [guard-simple_shell]: |?
-| [guard-spin](http://github.com/vizjerai/guard-spin) |?
-| [guard-spinach](http://github.com/codegram/guard-spinach) |?
-| [guard-spinoff](https://github.com/bernd/guard-spinoff) |?
-| [guard-spork](http://rubygems.org/gems/guard-spork) |?
 | [guard-sporkminitest](https://github.com/rking/guard-minitest) |?
-| [guard-spring](https://github.com/mknapik/guard-spring) |?
 | [guard-sprite-factory](http://chrishein.com) |?
-| [guard-sprockets2](https://github.com/stevehodgkiss/guard-sprockets2) |?
-| [guard-staticmatic](https://github.com/mihar/guard-staticmatic) |?
 | [guard-steering](https://github.com/ustwo/guard-steering) |?
 | [guard-stitch]: |?
 | [guard-stitch-plus](https://github.com/imathis/guard-stitch-plus) |?
@@ -407,9 +444,10 @@ NOTE: I (@e2) haven't gone through these - please move these into the above cate
 | [guard-rails-assets](https://github.com/guard/guard-rails-assets) | not sure if it works with Rails 4
 | [guard-rspectacle](https://github.com/guard/guard-rspectacle) | Embedded RSpec runner - probably better to use Guard::Rspec or Guard::Zeus
 | [guard-soca](http://github.com/rubbish/guard-soca) | likely outdated
-| [guard-spring](https://github.com/guard/guard-spring) | guard-rspec supports running RSpec with Spring and a lot more
-| [guard-sprockets2](https://github.com/guard/guard-sprockets2) | probably outdated
+| [guard-spring](https://github.com/mknapik/guard-spring) | guard-rspec supports running RSpec with Spring and a lot more
 | [guard-stendhal](https://github.com/guard/guard-stendhal) | likely outdated
 | [guard-stitch](https://github.com/guard/guard-stitch) | alternative to guard-sprockets, but may be outdated
 | [guard-jekyll2] | probably replaced with guard-jekyll-plus
 | [guard-fast_spec](http://rubygems.org/gems/guard-fast_spec) | probably obsolete
+| [guard-railstestdb](https://github.com/singlebrook/guard-railstestdb) | replaced with guard-migrate
+| [guard-reloader](https://github.com/fajarmf/Rails-Autotester) | obsolete?
