@@ -120,6 +120,7 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 | [guard-shotgun](http://github.com/rchampourlier/guard-shotgun) | restart Sinatra server
 | [guard-sidekiq](http://github.com/uken/guard-sidekiq) | restart Sidekiq workers
 | [guard-spin](http://github.com/vizjerai/guard-spin) | restart Spin server
+| [guard-unicorn](https://github.com/xhr/guard-unicorn) | restart Unicorn server
 
 ## Web asset optimization
 
@@ -242,6 +243,7 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 | [guard-inch](https://github.com/chills42/guard-inch) | documentation measurement tool for Ruby
 | [guard-rdoc](https://github.com/bspaulding/guard-rdoc) | rebuild rdoc on code changes
 | [guard-redcarpet](https://github.com/SegFaultAX/guard-redcarpet) | use Redcarpet gem to process markdown to html
+| [guard-yard](https://github.com/panthomakos/guard-yard) | rebuild documentation with Yard
 
 
 ### DevOps / Chef
@@ -407,7 +409,6 @@ NOTE: I (@e2) haven't gone through these - please move these into the above cate
 | [guard-toc](https://github.com/j2fly/guard-toc) |?
 | [guard-treetop](https://github.org/rizzatti/guard-treetop) |?
 | [guard-typescript](http://github.com/jabbawookiees/guard-typescript) |?
-| [guard-unicorn](https://github.com/xhr/guard-unicorn) |?
 | [guard-unity](https://github.com/rubyrainbows/guard-unity-test) |?
 | [guard-vows](https://github.com/jamesotron/guard-vows) |?
 | [guard-webhook-notifier](https://github.com/yuku-t/guard-webhook-notifier) |?
@@ -417,7 +418,6 @@ NOTE: I (@e2) haven't gone through these - please move these into the above cate
 | [guard-xctool-test](https://github.com/siuying/guard-xctool-test) |?
 | [guard-yaml](https://github.com/philtr/guard-yaml) |?
 | [guard-yamlsort](http://vendetta.io) |?
-| [guard-yard](https://github.com/panthomakos/guard-yard) |?
 | [guard-yardstick]: |?
 | [guard-yeti](https://github.com/hojberg/guard-yeti) |?
 | [guard-zeus-client](https://github.com/aceofsales/guard-zeus-client) |?
