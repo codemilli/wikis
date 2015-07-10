@@ -45,6 +45,7 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 | [guard-bower_rails](https://rubygems.org/gems/guard-bower_rails) | Automatically install/update Rails bower dependencies
 | [guard-bundler-audit](https://github.com/christianhellsten/guard-bundler-audit) | check for gems with vulnerabilities
 | [guard-consistency_fail](http://rubygems.org/gems/guard-consistency_fail) | detect missing unique indexes in Rails projects
+| [guard-flow](https://github.com/blainekasten/guard-flow) | runs flow type checker on Rails javascript files
 
 ## Website generating/authoring
 
@@ -64,6 +65,7 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 | [guard-haml](https://github.org/guard/guard-haml) | compile Haml templates to HTML
 | [guard-less](https://rubygems.org/gems/guard-less) | compile LESS templates
 | [guard-stylus](https://github.com/TimDumol/guard-stylus) | compile Node.js Stylus CSS templates
+| [guard-erb](https://github.com/omarramos/guard-erb) | compiles erb files
 
 
 ## General Web Development
@@ -71,6 +73,7 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 | Plugin | When to use |
 | ------ | ------------|
 | [guard-livereload](https://rubygems.org/gems/guard-livereload) | Reloads browser whenever web pages change
+| [guard-embertools](https://github.com/wbhumphrey/guard-embertools) | rebuilds application.js when ember files are modified
 | [guard-pusher](http://github.com/carhartl/guard-pusher) |  Send messages to multiple iPad/iPhone browsers (like "reload page")
 | [guard-shopify](https://github.com/guard/guard-shopify) |  automatically upload and update Shopify templates when they change
 | [guard-premailer](https://github.com/guard/guard-premailer) |  inline CSS in email templates
@@ -88,6 +91,9 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 | [guard-webrick](https://github.com/guard/guard-webrick) |  Restarts WEBrick server when needed
 | [guard-rack](https://github.com/dblock/guard-rack) | restarts Rack app server
 | [guard-puma](https://github.com/jc00ke/guard-puma) | restarts Puma app server
+| [guard-foreman](https://github.com/J3RN/guard-foreman) | reruns foreman
+| [guard-goliath](https://github.com/duderman/guard-goliath) | restarts Goliath apps
+| [guard-grunt](http://rubygems.org/gems/guard-grunt) | restarts Grunt
 
 ## Web asset optimization
 
@@ -118,6 +124,11 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 | [guard-cedar](https://github.com/ohrite/guard-cedar) | runs Cedar (Objective-C) BDD tests
 | [guard-codeception](https://github.com/colby-swandale/guard-codeception) | run Codeception tests (PHP)
 | [guard-combustion](http://github.com/Chosko/guard-combustion) | testing Rails Engines
+| [guard-cunit](http://teacup-on-rockingchair.github.com/guard-cunit/)| run CUnit tests
+| [guard-elixir](https://github.com/webcoyote/guard-elixir) | runs Elixir tests using "mix test"
+| [guard-gotest](https://github.com/hatoishi/guard-gotest) | runs Go tests
+| [guard-gradle](https://github.com/bricker/guard-gradle) | builds and runs Java tests (Gradle projects)
+| [guard-gradle-android-test](https://github.com/STAR-ZERO/guard-gradle-android-test) | runs Java Gradle tests for Android
 
 ### Code Quality
 | Plugin | When to use |
@@ -126,6 +137,7 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 | [guard-rubocop](https://github.com/guard/guard-rubocop) |  Check your source files to style violations and potential problems
 | [guard-jshint-node](http://github.com/pahen/guard-jshint-node) |  detect errors and potential problems in JavaScript files
 | [guard-coffeelint](http://github.com/meagar/guard-coffeelint) | run coffeelint
+| [guard-flog](https://github.com/pericles/guard-flog/) | creates flog reports
 
 ### Documentation
 | Plugin | When to use |
@@ -150,13 +162,21 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 | [guard-autoupload](https://github.com/jyrkij/guard-autoupload) | upload files using SFTP or FTP
 | [guard-bosh](https://github.com/cloudcredo/guard-bosh) | update Cloud Foundry BOSH config (large scale distributed services)
 | [guard-clockwork](https://github.com/deepblue/guard-clockwork) | restart Clockwork instances (Clockwork = Cron replacement written)
+| [guard-fig](https://rubygems.org/gems/guard-fig) | help develop docker containers using fig
+| [guard-foodcritic](https://github.com/Nordstrom/guard-foodcritic) | lint tool for Opscode Chef cookbooks
+
+### Editor helpers (ctags generators)
+
+| Plugin | When to use |
+| ------ | ------------|
+| [guard-ctags-bundler](https://github.com/ivalkeen/guard-ctags-bundler) |  regenerates CTags files so editors can find method definitions
+| [guard-ctags-composer](https://github.com/everzet/guard-ctags-composer) | for PHP projects
 
 ### Utility
 
 | Plugin | When to use |
 | ------ | ------------|
 | [guard-bundler](https://github.com/guard/guard-bundler) | installs/updates gems when Gemfile changes
-| [guard-ctags-bundler](https://github.com/ivalkeen/guard-ctags-bundler) |  regenerates CTags files so editors can find method definitions
 | [guard-shell](https://github.com/guard/guard-shell) |  Runs shell commands when changes happen - also supports notifications and long -running programs
 | [guard-yield](https://github.com/guard/guard-yield) | runs any Ruby code (without the need to write a Guard plugin)
 | [guard-rake](http://github.com/rubyist/guard-rake) |  reruns a rake task when files change
@@ -168,6 +188,9 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 | [guard-cocoapods](https://github.com/kreeger/guard-cocoapods) | installs CocoaPods
 | [guard-bundler](https://github.com/guard/guard-bundler) | installs/updates gems when Gemfile changes
 | [guard-copy](https://github.com/marcisme/guard-copy) | copy files whenever files are created or modified
+| [guard-copy3](https://github.com/mattjorn/guard-copy3) | copies files and folders whenever files are created or modified
+| [guard-entangle](http://rubygems.org/gems/guard-entangle) | expands files inline
+| [guard-gitpusher](https://github.com/hatone/guard-gitpusher) | automatically uploads changed files to Git repository
 
 
 ### Guard Plugin development
@@ -193,35 +216,16 @@ NOTE: I (@e2) haven't gone through these - please move these into the above cate
 | [guard-concatfilter](http://github.com/geoffyoungs/guard-concat) |?
 | guard-cop: |?
 | [guard-copy2](https://github.com/TimDumol/guard-stylus) |?
-| [guard-copy3](https://github.com/mattjorn/guard-copy3) |?
-| [guard-ctags-composer](https://github.com/everzet/guard-ctags-composer) |?
 | [guard-cucumber-js]: |?
-| [guard-cunit](http://teacup-on-rockingchair.github.com/guard-cunit/)|?
 | [guard-depend](http://grossweber.com) |?
 | [guard-ecukes](http://github.com/dillonkearns/guard-ecukes) |?
 | [guard-ejs]: |?
-| [guard-elixir](https://github.com/webcoyote/guard-elixir) |?
-| [guard-embertools](https://github.com/wbhumphrey/guard-embertools) |?
-| [guard-entangle](http://rubygems.org/gems/guard-entangle) |?
-| [guard-erb](https://github.com/omarramos/guard-erb) |?
 | [guard-erlang](http://github.com/hpyhacking/guard-erlang) |?
 | [guard-evergreen](https://github.com/criticalpair/guard-evergreen) |?
-| [guard-fast_spec](http://rubygems.org/gems/guard-fast_spec) |?
 | [guard-faye](http://github.com/d4rk5eed/guard-faye) |?
-| [guard-fig](https://rubygems.org/gems/guard-fig) |?
 | [guard-fixture_builder]: |?
 | [guard-flay]: |?
-| [guard-flog](https://github.com/pericles/guard-flog/) |?
-| [guard-flow](https://github.com/blainekasten/guard-flow) |?
-| [guard-foodcritic](https://github.com/Nordstrom/guard-foodcritic) |?
-| [guard-foreman](https://github.com/J3RN/guard-foreman) |?
-| [guard-gitpusher](https://github.com/hatone/guard-gitpusher) |?
 | [guard-go]: |?
-| [guard-goliath](https://github.com/duderman/guard-goliath) |?
-| [guard-gotest](https://github.com/hatoishi/guard-gotest) |?
-| [guard-gradle](https://github.com/bricker/guard-gradle) |?
-| [guard-gradle-android-test](https://github.com/STAR-ZERO/guard-gradle-android-test) |?
-| [guard-grunt](http://rubygems.org/gems/guard-grunt) |?
 | [guard-gulp](http://rubygems.org/gems/guard-gulp) |?
 | [guard-haml-coffee](https://github.com/ouvrages/guard-haml-coffee) |?
 | [guard-haml-ext]: |?
@@ -408,3 +412,4 @@ NOTE: I (@e2) haven't gone through these - please move these into the above cate
 | [guard-stendhal](https://github.com/guard/guard-stendhal) | likely outdated
 | [guard-stitch](https://github.com/guard/guard-stitch) | alternative to guard-sprockets, but may be outdated
 | [guard-jekyll2] | probably replaced with guard-jekyll-plus
+| [guard-fast_spec](http://rubygems.org/gems/guard-fast_spec) | probably obsolete
