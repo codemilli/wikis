@@ -58,6 +58,8 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 
 ## Web CSS/template processing/compiling
 
+| Plugin | When to use |
+| ------ | ------------|
 | [guard-coffeescript](https://github.com/guard/guard-coffeescript) |  Compiles CoffeeScript files
 | [guard-compass](https://github.com/guard/guard-compass) |  Rebuilds your CSS files in Compass Sass projects
 | [guard-tilt](http://github.com/boof/guard-tilt) |?
