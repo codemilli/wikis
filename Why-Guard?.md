@@ -24,7 +24,7 @@ Here are problems Guard helps avoid (compared to other scripts or tools like ino
 - no inotifywait/inotifywatch errors to deal with
 - watches the files directory, so it supports file adding, renames (which is what editors do - they rarely just "modify" a file in place)
 - interactive console to rerun, simulate and debug events
-- Guard itself reloads when you change it's configuration
+- Guard itself reloads when you change its configuration
 - single instance of Guard can handle many directories (instead of running many unmanageable "instances" of inotify_wait scripts running)
 - more than 7 million gem downloads and almost no open issues
 - handles moving whole files and directories
