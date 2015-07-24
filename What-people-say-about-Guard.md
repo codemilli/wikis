@@ -15,5 +15,11 @@ Here's how Guard has helped others:
 
 ---
 
+> *"Like the previous testimonial from Daniël, I've been using Guard for testing from the moment I discovered it. I use it with Minitest for doing Test-Driven Development (TDD) with Guard running the associated test file automatically upon saving. It's just a great workflow. A heartfelt 'thank you!' to the Guard creators and maintainers."*
+>
+> Jon Atack ([@jonatack](https://github.com/jonatack))
+
+---
+
 (Feel free to add a snippet about your own experiences with Guard above.)
 
