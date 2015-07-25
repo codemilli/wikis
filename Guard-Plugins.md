@@ -218,6 +218,8 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 | [guard-rubycritic](https://github.com/whitesmith/guard-rubycritic) | detects code smells in Ruby using Rubycritic
 
 ### Code Quality (Javascript)
+| Plugin | When to use |
+| ------ | ------------|
 | [guard-jshint-node](http://github.com/pahen/guard-jshint-node) |  detect errors and potential problems in JavaScript files
 | [guard-coffeelint](http://github.com/meagar/guard-coffeelint) | run coffeelint
 | [guard-jshint-on-rails](https://github.com/MrOrz/guard-jshint-on-rails) | uses jshint on Rails project
