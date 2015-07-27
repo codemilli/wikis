@@ -21,5 +21,10 @@ Here's how Guard has helped others:
 
 ---
 
+> *"[guard-rspec](https://github.com/guard/guard-rspec) greatly reduces the time from code change to test feedback, providing a fluid development experience."*
+>
+> Kris Leech ([@krisleech](https://github.com/krisleech))
+
+---
 (Feel free to add a snippet about your own experiences with Guard above.)
 
