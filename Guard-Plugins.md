@@ -160,16 +160,12 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 | Plugin | When to use |
 | ------ | ------------|
 | [guard-prove](https://github.com/guard/guard-prove) |  reruns Perl tests
-| [guard-frank](https://github.com/AlexDenisov/guard-frank) |  rerun Frank-Cucumber (iOS) features
-| [guard-calabash-ios](https://github.com/AlexDenisov/guard-calabash-ios) |  return Calabash iOS Cucumber features
 | [guard-jenkins](https://github.com/guard/guard-jenkins) |  sets a Jenkins status image depending whether there's a failure or not
-| [guard-cedar](https://github.com/ohrite/guard-cedar) | runs Cedar (Objective-C) BDD tests
 | [guard-cunit](http://teacup-on-rockingchair.github.com/guard-cunit/)| run CUnit tests
 | [guard-elixir](https://github.com/webcoyote/guard-elixir) | runs Elixir tests using "mix test"
 | [guard-gotest](https://github.com/hatoishi/guard-gotest) | runs Go tests
 | [guard-haskell](https://github.com/supki/guard-haskell#readme) | runs Haskell specs
 | [guard-julia](https://github.com/svs14/guard-julia) | runs Julia tests
-| [guard-ocunit](https://github.com/ap4y/guard-ocunit) | run OCUnit tests on ios-sim
 | [guard-pytest](https://github.com/kazufusa/guard-pytest) | runs pytest (Python)
 | [guard-rackunit](https://github.com/neomantic/guard-rackunit) | runs Racket's RackUnit tests
 | [guard-rebar](http://github.com/andrzejsliwa/guard-rebar) | use Rebar to run Erlang tests
@@ -206,6 +202,16 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 | [guard-phpunit](https://github.com/guard/guard-phpunit) |  Guard::PHPUnit automatically runs your tests
 | [guard-codeception](https://github.com/colby-swandale/guard-codeception) | run Codeception tests (PHP)
 | [guard-phpspec](http://github.com/lsd/guard-phpspec) | runs PHPSpec
+
+## Testing (iOS)
+
+| Plugin | When to use |
+| ------ | ------------|
+| [guard-xctool-test](https://github.com/siuying/guard-xctool-test) | run xctool test command on save
+| [guard-frank](https://github.com/AlexDenisov/guard-frank) |  rerun Frank-Cucumber (iOS) features
+| [guard-calabash-ios](https://github.com/AlexDenisov/guard-calabash-ios) |  return Calabash iOS Cucumber features
+| [guard-cedar](https://github.com/ohrite/guard-cedar) | runs Cedar (Objective-C) BDD tests
+| [guard-ocunit](https://github.com/ap4y/guard-ocunit) | run OCUnit tests on ios-sim
 
 ### Code Quality
 | Plugin | When to use |
@@ -417,7 +423,6 @@ NOTE: I (@e2) haven't gone through these - please move these into the above cate
 | [guard-webpack](https://github.com/gisikw/guard-webpack) |?
 | [guard-xcode](https://github.com/kisom/guard-xcode) |?
 | [guard-xcoder](http://github.com/burtlo/guard-xcoder) |?
-| [guard-xctool-test](https://github.com/siuying/guard-xctool-test) |?
 | [guard-yaml](https://github.com/philtr/guard-yaml) |?
 | [guard-yamlsort](http://vendetta.io) |?
 | [guard-yardstick]: |?
