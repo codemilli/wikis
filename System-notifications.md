@@ -89,7 +89,7 @@ end
 
 ## Terminal Notifier
 
-* Runs on Mac OS X 10.8 only
+* Runs on Mac OS X 10.8 or higher
 
 The [terminal-notifier-guard](https://github.com/Springest/terminal-notifier-guard) sends notifications to the OS X
 Notification Center.
