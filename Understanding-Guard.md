@@ -62,6 +62,7 @@ This says a few things:
 4. That the plugin actually handles modified files
 
 So if nothing is happening at this point, check that:
+
 1. The plugin is configured properly
 2. The plugin doesn't actually ignore the file you are watching
 
