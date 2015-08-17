@@ -21,4 +21,4 @@ Both Guard and Listen are very stable and quite robust right now - issues are ra
 7. You can go through the code and TODOs to refactor/improve
 8. If you want to actively develop anything towards Guard 3x or if you have ideas - just open an issue and I'll help as much as I can.  So check if there's something you'd like doing, create some pull requests, I'll help you get them merged and then you can decide if you liked the experience.
 
-If your contributions show you know your way around (just enough to avoid breaking things for user) I'd be happy to give you maintainer/owner access.
+If your contributions show you clearly know your way around (just enough to avoid breaking things for users), I'd be happy to give you maintainer/owner access.
