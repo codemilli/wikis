@@ -39,6 +39,8 @@ spec.add_dependency 'guard-compat', '~> 1.1'
 Your Guard main class `Guard::Yoyo` in `lib/guard/yoyo.rb` must inherit from
 [Guard::Plugin](http://rubydoc.info/github/guard/guard/master/Guard/Plugin)
 
+All files of Guard::Yoyo class must inherit from [Guard::Plugin](http://rubydoc.info/github/guard/guard/master/Guard/Plugin), including `lib/guard/yoyo/version.rb`
+
 Here is an example scaffold for `lib/guard/yoyo.rb`:
 
 ```ruby
