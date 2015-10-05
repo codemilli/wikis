@@ -198,7 +198,7 @@ directories %w(app config lib spec features)
 Note: The `--watchdir` option overrides this. (see `--watchdir` above for extra
 info).
 
-Note: Since recursion cannot be diabled on OSX, all other backends were made
+Note: Since recursion cannot be disabled on OSX, all other backends were made
 recursive - so if you want to watch selected directories AND files in the root
 directory of your project, move them to another directory and create symlinks
 back, e.g.
