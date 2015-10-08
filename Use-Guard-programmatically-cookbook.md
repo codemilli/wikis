@@ -6,6 +6,7 @@ Perhaps you wish to compile asset files from CoffeeScript, LESS, SCSS or the lik
 
 ```ruby
 require 'guard'
+require 'guard/commander' # needed because of https://github.com/guard/guard/issues/793
 
 namespace :assets do
   desc 'Generate CSS from all source LESS files'
@@ -34,6 +35,7 @@ require 'rubygems'
 require 'bundler/setup'
 
 require 'guard'
+require 'guard/commander' # needed because of https://github.com/guard/guard/issues/793
 require 'rake'
 
 # Optional: If you use Guard::Rake you also have to manually start up Rake to be able to process the Rakefile
@@ -51,9 +53,12 @@ Guard.run_all
 
 ### Starting Guard within your application
 
-You can start guard togheter with the rails application, just create a `config/initializers/guard.rb` with something like:
+You can start guard together with the rails application, just create a `config/initializers/guard.rb` with something like:
 
 ```ruby
+require 'guard'
+require 'guard/commander' # needed because of https://github.com/guard/guard/issues/793
+
 fork do
   if __FILE__ == '(irb)'
   end
