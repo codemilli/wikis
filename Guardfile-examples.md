@@ -55,9 +55,9 @@ group :backend do
 end
 ```
 
-The frontend guy would launch Guard like this: `[bundle exec] guard -g frontend`
+The frontend dev would launch Guard like this: `[bundle exec] guard -g frontend`
 
-While the backend guy would launch it like this: `[bundle exec] guard -g backend`
+While the backend dev would launch it like this: `[bundle exec] guard -g backend`
 
 ***
 
