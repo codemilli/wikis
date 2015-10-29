@@ -2,7 +2,7 @@
 
 Thanks for being interested in maintaining Guard!
 
-First, both Guard and Listen are sometimes at bit complex at places - and both are used by many users, so I'd suggest finding a way of helping you enjoy.
+First, both Guard and Listen are sometimes a bit complex at places - and both are used by many users, so I'd suggest finding a way of helping you enjoy.
 
 You can also decide how involved you want to be - from just helping users with casual problems, to development towards Guard 3.x
 
