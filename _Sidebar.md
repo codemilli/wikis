@@ -1,5 +1,5 @@
 **Intro**
-* [[Why Guard?]]
+* [[What is wifiphiser?]]
 * [[What people say about Guard]]
 * [[Guard Plugins]]
 * [[Guard alternatives]]
