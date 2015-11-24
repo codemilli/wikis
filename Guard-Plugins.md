@@ -3,6 +3,7 @@ NOTE: Guard maintainers are not responsible for the quality or suitability of th
 Ordering is generally by popularity/user-friendliness/completeness/support/active-development. Disputes about order should be resolved by project "star" count.
 
 NOTE: if any plugins are broken or outdated, try the following:
+
 1. find the gem on rubygems.org, then go to the homepage
 2. file an issue there and wait up to a few days for the author to respond
 3. if the plugin author isn't responding CC a Guard maintainer in the issue (e.g. me: @e2)
