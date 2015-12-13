@@ -20,7 +20,6 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 | [guard-cucumber](https://github.com/guard/guard-cucumber) |  Reruns changed/affected Cucumber Features
 | [guard-zeus](https://github.com/guard/guard-zeus) |  Zeus speeds up startup time for Rails commands (development, server, testing)
 | [guard-jasmine](https://github.com/guard/guard-jasmine) | Frontend testing using PhantomJS/Webkit
-| [guard-cucumber](https://github.com/guard/guard-cucumber) |  Reruns changed/affected Cucumber Features
 | [guard-jekyll-plus](http://github.com/imathis/guard-jekyll-plus) |  Extensive plugin for working with Jekyll projects
 | [guard-brakeman](https://github.com/guard/guard-brakeman) |  Scans your Rails application for known security holes (CVE's)
 | [guard-rubocop](https://github.com/yujinakayama/guard-rubocop) |  Check your source files to style violations and potential problems
