@@ -6,4 +6,3 @@
 
 **Use Cases**
 * [[Use case diagram]]
-*
