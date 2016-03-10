@@ -218,6 +218,7 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 | ------ | ------------|
 | [guard-cane](https://github.com/guard/guard-cane) | fails the build if your source files fail the quality level
 | [guard-rubocop](https://github.com/guard/guard-rubocop) |  Check your source files to style violations and potential problems
+| [guard-haml-lint](https://github.com/yatmsu/guard-haml-lint) |  Check your HAML-specific style and lint checks
 | [guard-flog](https://github.com/pericles/guard-flog/) | creates flog reports
 | [guard-reek](https://github.com/gvillalta99/guard-reek) | find code smells
 | [guard-rubybeautify](https://github.com/erniebrodeur/guard-rubybeautify) | beautifies Ruby code
