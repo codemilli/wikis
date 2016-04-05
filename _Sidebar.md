@@ -2,9 +2,6 @@
 * [[Why Guard?]]
 * [[Guard Plugins]]
 * [[Guard alternatives]]
- 
-**Use Cases**
-* [[Use case diagram]]
 
 **Installation**
 
