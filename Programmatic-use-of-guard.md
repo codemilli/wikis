@@ -9,6 +9,8 @@ Remember, without any options given, Guard will look for a `Guardfile` in your c
 
 ```ruby
 require 'guard'
+require 'guard/commander' # needed because of https://github.com/guard/guard/issues/793
+
 # You can omit the call to Guard.setup, Guard.run_all will call Guard.setup
 # under the hood if Guard has not been setuped yet
 Guard.run_all group: :features
@@ -21,6 +23,7 @@ Specify a custom `Guardfile` path:
 
 ```ruby
 require 'guard'
+require 'guard/commander' # needed because of https://github.com/guard/guard/issues/793
 
 Guard.setup(guardfile: '/path/to/Guardfile')
 ```
@@ -29,6 +32,7 @@ Start Guard and with a `Guardfile` as a string:
 
 ```ruby
 require 'guard'
+require 'guard/commander' # needed because of https://github.com/guard/guard/issues/793
 
 guardfile = <<-EOF
   guard 'rspec' do
