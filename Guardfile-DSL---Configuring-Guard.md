@@ -33,6 +33,16 @@ guard :coffeescript, input: 'coffeescripts', output: 'javascripts'
 guard :coffeescript, input: 'specs', output: 'specs'
 ```
 
+There is also a `:first_match` option, which runs the plugin only for the first matching `watch` expression, e.g.
+
+guard :rspec, first_match: true do
+  watch(/^spec/integration/(.*)_spec.rb$/) { "spec/integration" }
+  watch(/^spec/(.*)_spec.rb$/)
+end
+
+In this case, any file matching the first rule won't be matched by the second rule.
+
+
 ### watch
 
 ~~The `watch` method allows you to define which files are watched by a Guard~~
