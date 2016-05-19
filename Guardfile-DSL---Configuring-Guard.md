@@ -86,6 +86,25 @@ In this example the regular expression capture group `(.+)` is used to transform
 in the `lib` folder to its test case in the `spec` folder. Regular expression watch patterns
 are matched with [Regexp#match](http://www.ruby-doc.org/core-1.9.3/Regexp.html#method-i-match).
 
+Since Guard 2.14.x, you can also use named group captures, e.g.
+
+```ruby
+guard :rspec do
+  watch(%r{^lib/(?<path>.+)\.rb$}) { |m| "spec/lib/#{m[:path]}_spec.rb" }
+end
+```
+
+since m[:path] is more readable than having numbers m[1] or m[2].
+
+And, since Guard 2.14.x, you can pass custom matchers, e.g.
+
+```ruby
+only_uncommitted_lib_files = MySpecialMatcher.new
+watch(only_uncommitted_lib_files) { |m| "spec/#{m[:path_without_ext]}_spec.rb" }
+```
+
+And example should be here: https://github.com/guard/guard/wiki/Custom-matchers-in-watches
+
 You can also launch any arbitrary command in the supplied block:
 
 ```ruby
