@@ -8,7 +8,7 @@ Meanwhile, we hope this guide will help you quickly "get it", without having to 
 
 If you don't take a few minutes to even just skim through this, you might get stuck for hours trying to even get `Guard` doing something simple.
 
-But, if you do ... you'll be able to force `Guard` to do truly awesome things - that we as `Guard` authors and maintainers would have *never* imagined!.
+But, if you do ... you'll be able to force `Guard` to do truly awesome things - that we as `Guard` authors and maintainers would have *never* imagined!
 
 (Do share with us if you create something cool! Feel free to even add a Wiki page about it!)
 
