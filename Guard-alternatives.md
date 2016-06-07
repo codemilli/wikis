@@ -1,4 +1,4 @@
-Here's a list of know "alternatives" to Guard.
+Here's a list of known "alternatives" to Guard.
 
 The order should be: how generally feature-complete the tool is compared to Guard.
 
