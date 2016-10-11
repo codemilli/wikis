@@ -48,7 +48,6 @@ NOTE: some plugin authors work on their own forks instead of the forks in the Gu
 | [guard-bundler-audit](https://github.com/christianhellsten/guard-bundler-audit) | check for gems with vulnerabilities
 | [guard-consistency_fail](http://rubygems.org/gems/guard-consistency_fail) | detect missing unique indexes in Rails projects
 | [guard-flow](https://github.com/blainekasten/guard-flow) | runs flow type checker on Rails javascript files
-| [guard-rails_best_practices](http://rubygems.org/gems/guard-rails_best_practices) | Rails Best Practices runner
 | [guard-railsbp](https://github.com/andreygerasimchuk/guard-railsbp) | Rails Best Practices runner
 
 ## Website generating/authoring
