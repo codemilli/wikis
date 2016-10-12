@@ -24,7 +24,7 @@ ruby_configure_flags=--with-readline-dir="$rvm_path/usr"
 to `~/.rvm/user/db`. Finally you need to reinstall your Ruby of choice:
 
 ```Bash
-$ rvm reinstall 1.9.3
+$ rvm reinstall 2.3.1
 ```
 
 ## Option 2: Build Ruby With GNU Readline Using RVM and Homebrew
@@ -59,7 +59,7 @@ $ brew install readline ruby-build
 now set the configure options when compile Ruby:
 
 ```
-$ RUBY_CONFIGURE_OPTS=--with-readline-dir=`brew --prefix readline` rbenv install 1.9.3-p286
+$ RUBY_CONFIGURE_OPTS=--with-readline-dir=`brew --prefix readline` rbenv install 2.3.1
 ```
 
 ## Option 4: Using a pure Ruby readline implementation
