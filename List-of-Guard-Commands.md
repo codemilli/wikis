@@ -67,7 +67,7 @@ You can always get help on the available tasks with the `help` task:
 $ bundle exec guard help
 ```
 
-Requesting more detailed help on a specific task is simple: just append the task name to the help task.
+Requesting [more detailed help](http://qwikfix.co.uk/dvla-contact/) on a specific task is simple: just append the task name to the help task.
 For example, to get help for the `start` task, simply run:
 
 ```bash
